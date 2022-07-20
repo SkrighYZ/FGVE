@@ -19,6 +19,8 @@ If you want to use custom data, check out [DATA.md](docs/DATA.md) for details on
 ## Acknowledgment
 Our code builds upon [microsoft/Oscar](https://github.com/microsoft/Oscar).
 
+This research is based upon work supported by DARPA SemaFor Program No. HR001120C0123. The views and conclusions contained herein are those of the authors and should not be interpreted as necessarily representing the official policies, either expressed or implied, of DARPA, or the U.S. Government. The U.S. Government is authorized to reproduce and distribute reprints for governmental purposes notwithstanding any copyright annotation.
+
 ## Citation
 
 ```bibtex
