@@ -1,0 +1,2777 @@
+{
+    "4695471709.jpg#1r1n": {
+        "hyp": 2,
+        "z0 tour": 0,
+        "z1 person": 0,
+        "z2 museum": 2,
+        "z0 tour :arg0 z1 person": 0,
+        "z0 tour :arg1 z2 museum": 2
+    },
+    "4975536758.jpg#4r1c": {
+        "hyp": 2,
+        "z0 swim": 2,
+        "z1 boy": 0,
+        "z2 day": 0,
+        "z3 hot": 1,
+        "z0 swim :arg0 z1 boy": 2,
+        "z0 swim :time z2 day": 2,
+        "z3 hot :arg1 z2 day": 1
+    },
+    "5086989679.jpg#3r1n": {
+        "hyp": 2,
+        "z0 paint": 0,
+        "z1 face": 0,
+        "z2 gymnast": 0,
+        "z3 red": 3,
+        "z0 paint :arg1 z1 face": 0,
+        "z2 gymnast :part z1 face": 0,
+        "z0 paint :arg2 z3 red": 2
+    },
+    "5456862756.jpg#3r1n": {
+        "hyp": 1,
+        "z0 soak": 0,
+        "z1 woman": 0,
+        "z2 foot": 0,
+        "z3 sore": 1,
+        "z0 soak :arg0 z1 woman": 0,
+        "z0 soak :arg1 z2 foot": 0,
+        "z1 woman :part z2 foot": 0,
+        "z3 sore :arg1 z2 foot": 1
+    },
+    "5513727638.jpg#0r1e": {
+        "hyp": 2,
+        "z0 man": 0,
+        "z1 outside": 2,
+        "z2 ride": 0,
+        "z3 bike": 0,
+        "z0 man :location z1 outside": 2,
+        "z2 ride :arg0 z0 man": 0,
+        "z2 ride :arg1 z3 bike": 0
+    },
+    "146019208.jpg#3r1n": {
+        "hyp": 1,
+        "z0 stick": 1,
+        "z1 man": 0,
+        "z2 location": 3,
+        "z0 stick :arg1 z1 man": 1,
+        "z0 stick :arg2 z2 location": 1,
+        "z1 man :location z2 location": 0
+    },
+    "1330645772.jpg#2r1c": {
+        "hyp": 2,
+        "z0 dog": 0,
+        "z1 inside": 2,
+        "z2 sleep": 2,
+        "z0 dog :location z1 inside": 2,
+        "z2 sleep :arg0 z0 dog": 2
+    },
+    "1313961775.jpg#2r3c": {
+        "hyp": 2,
+        "z0 swim": 0,
+        "z1 man": 2,
+        "z2 water": 0,
+        "z0 swim :arg0 z1 man": 2,
+        "z0 swim :arg1 z2 water": 0
+    },
+    "1303727066.jpg#2r3c": {
+        "hyp": 2,
+        "z0 wear": 0,
+        "z1 man": 0,
+        "z2 shirt": 0,
+        "z3 plain": 3,
+        "z0 wear :arg0 z1 man": 0,
+        "z0 wear :arg1 z2 shirt": 0,
+        "z2 shirt :mod z3 plain": 2
+    },
+    "1246863003.jpg#0r4e": {
+        "hyp": 0,
+        "z0 work": 0,
+        "z1 chef": 0,
+        "z0 work :arg0 z1 chef": 0,
+        "z1 chef :quant 3": 0
+    },
+    "1235455146.jpg#2r1n": {
+        "hyp": 1,
+        "z0 couple": 1,
+        "z1 beach": 0,
+        "z0 couple :location z1 beach": 1
+    },
+    "1112334131.jpg#0r1e": {
+        "hyp": 1,
+        "z0 eat": 0,
+        "z1 child": 0,
+        "z2 sweet": 1,
+        "z0 eat :arg0 z1 child": 0,
+        "z0 eat :arg1 z2 sweet": 1
+    },
+    "1097710887.jpg#0r3n": {
+        "hyp": 1,
+        "z0 vacation": 1,
+        "z1 girl": 0,
+        "z0 vacation :arg0 z1 girl": 1
+    },
+    "4734146340.jpg#4r1n": {
+        "hyp": 1,
+        "z0 male": 0,
+        "z1 elderly": 3,
+        "z2 have": 3,
+        "z3 stick": 0,
+        "z4 hike": 1,
+        "z0 male :mod z1 elderly": 0,
+        "z2 have :arg0 z0 male": 3,
+        "z2 have :arg1 z3 stick": 0,
+        "z3 stick :purpose z4 hike": 1
+    },
+    "4751932433.jpg#2r1e": {
+        "hyp": 0,
+        "z0 stand": 0,
+        "z1 and": 3,
+        "z2 person": 0,
+        "z3 animal": 0,
+        "z0 stand :arg1 z1 and": 0,
+        "z1 and :op z2 person": 3,
+        "z2 person :quant 5": 0,
+        "z1 and :op z3 animal": 3,
+        "z3 animal :quant 5": 0
+    },
+    "4752721674.jpg#0r1n": {
+        "hyp": 1,
+        "z0 set-up": 0,
+        "z1 camera": 0,
+        "z2 film": 1,
+        "z3 chase": 1,
+        "z4 police": 1,
+        "z5 speed": 1,
+        "z6 high": 3,
+        "z0 set-up :arg1 z1 camera": 0,
+        "z0 set-up :purpose z2 film": 1,
+        "z2 film :arg0 z1 camera": 1,
+        "z2 film :arg1 z3 chase": 1,
+        "z3 chase :arg0 z4 police": 1,
+        "z5 speed :arg1 z3 chase": 1,
+        "z6 high :arg1 z5 speed": 1
+    },
+    "4803984649.jpg#2r1e": {
+        "hyp": 0,
+        "z0 standing": 0,
+        "z1 human": 0,
+        "z0 standing :mod z1 human": 0
+    },
+    "4812155149.jpg#0r1n": {
+        "hyp": 1,
+        "z0 walk": 0,
+        "z1 he": 0,
+        "z2 slow": 1,
+        "z0 walk :arg0 z1 he": 0,
+        "z2 slow :arg1 z0 walk": 1
+    },
+    "4819772045.jpg#2r1e": {
+        "hyp": 0,
+        "z0 pose": 0,
+        "z1 boy": 0,
+        "z2 picture": 0,
+        "z0 pose :arg0 z1 boy": 0,
+        "z0 pose :arg2 z2 picture": 0
+    },
+    "4819772045.jpg#4r1c": {
+        "hyp": 2,
+        "z0 wear": 0,
+        "z1 boy": 0,
+        "z2 blue": 3,
+        "z0 wear :arg0 z1 boy": 0,
+        "z0 wear :arg1 z2 blue": 2
+    },
+    "4828433053.jpg#4r1c": {
+        "hyp": 2,
+        "z0 wear": 0,
+        "z1 cat": 2,
+        "z2 vest": 0,
+        "z3 blue": 3,
+        "z0 wear :arg0 z1 cat": 2,
+        "z0 wear :arg1 z2 vest": 0,
+        "z2 vest :mod z3 blue": 0
+    },
+    "484280924.jpg#3r1n": {
+        "hyp": 0,
+        "z0 stand": 0,
+        "z1 person": 0,
+        "z2 cook": 0,
+        "z3 in-front-of": 3,
+        "z4 stove": 0,
+        "z0 stand :arg1 z1 person": 0,
+        "z2 cook :arg0 z1 person": 0,
+        "z0 stand :arg2 z3 in-front-of": 0,
+        "z3 in-front-of :op z4 stove": 0
+    },
+    "4885036157.jpg#0r1n": {
+        "hyp": 1,
+        "z0 pose": 0,
+        "z1 they": 0,
+        "z2 wed": 1,
+        "z0 pose :arg0 z1 they": 0,
+        "z0 pose :purpose z2 wed": 1
+    },
+    "4885036157.jpg#3r1e": {
+        "hyp": 0,
+        "z0 hug": 0,
+        "z1 couple": 0,
+        "z0 hug :arg0 z1 couple": 0
+    },
+    "4925573161.jpg#0r5n": {
+        "hyp": 1,
+        "z0 ride": 0,
+        "z1 person": 0,
+        "z2 cycle": 0,
+        "z3 fast": 3,
+        "z0 ride :arg0 z1 person": 0,
+        "z2 cycle :arg0 z1 person": 0,
+        "z0 ride :manner z3 fast": 1
+    },
+    "4937441878.jpg#0r1n": {
+        "hyp": 2,
+        "z0 fall": 2,
+        "z1 woman": 0,
+        "z2 window": 0,
+        "z3 car": 0,
+        "z4 about-to": 3,
+        "z0 fall :arg1 z1 woman": 2,
+        "z0 fall :arg3 z2 window": 2,
+        "z3 car :part z2 window": 0,
+        "z0 fall :time z4 about-to": 2
+    },
+    "4948865477.jpg#1r1e": {
+        "hyp": 0,
+        "z0 fall": 0,
+        "z1 rain": 0,
+        "z2 sky": 0,
+        "z0 fall :arg1 z1 rain": 0,
+        "z0 fall :arg3 z2 sky": 0
+    },
+    "4967261262.jpg#1r1e": {
+        "hyp": 0,
+        "z0 fun": 0,
+        "z1 person": 0,
+        "z2 together": 3,
+        "z0 fun :arg0 z1 person": 0,
+        "z0 fun :mod z2 together": 0
+    },
+    "4970590451.jpg#4r1n": {
+        "hyp": 1,
+        "z0 drive": 0,
+        "z1 man": 0,
+        "z2 motorcycle": 1,
+        "z0 drive :arg0 z1 man": 0,
+        "z0 drive :arg1 z2 motorcycle": 1
+    },
+    "4971484184.jpg#2r1e": {
+        "hyp": 0,
+        "z0 car": 0,
+        "z1 blue": 0,
+        "z0 car :mod z1 blue": 0
+    },
+    "4977528001.jpg#0r1n": {
+        "hyp": 1,
+        "z0 boy": 0,
+        "z1 live": 0,
+        "z2 city": 1,
+        "z3 name": 3,
+        "z1 live :arg0 z0 boy": 0,
+        "z1 live :location z2 city": 1,
+        "z2 city :name z3 name": 1,
+        "z3 name :op \"nyc\"": 1
+    },
+    "509778093.jpg#1r1n": {
+        "hyp": 1,
+        "z0 old": 1,
+        "z1 collie": 0,
+        "z0 old :domain z1 collie": 1
+    },
+    "512309690.jpg#3r1c": {
+        "hyp": 2,
+        "z0 dress": 0,
+        "z1 woman": 0,
+        "z2 thing": 0,
+        "z3 black": 3,
+        "z0 dress :arg1 z1 woman": 0,
+        "z0 dress :arg2 z2 thing": 0,
+        "z3 black :arg1 z2 thing": 2
+    },
+    "516360813.jpg#2r1n": {
+        "hyp": 1,
+        "z0 open": 1,
+        "z1 man": 0,
+        "z2 peanut": 1,
+        "z0 open :arg0 z1 man": 1,
+        "z0 open :arg1 z2 peanut": 1
+    },
+    "91251257.jpg#3r1n": {
+        "hyp": 1,
+        "z0 cold": 1,
+        "z1 water": 0,
+        "z0 cold :arg1 z1 water": 1
+    },
+    "7746984692.jpg#4r1n": {
+        "hyp": 1,
+        "z0 walk": 0,
+        "z1 person": 0,
+        "z2 hike": 0,
+        "z3 site": 1,
+        "z4 camp": 1,
+        "z0 walk :arg0 z1 person": 0,
+        "z2 hike :arg0 z1 person": 0,
+        "z0 walk :arg2 z3 site": 1,
+        "z4 camp :location z3 site": 1
+    },
+    "1016887272.jpg#2r1n": {
+        "hyp": 1,
+        "z0 climb": 0,
+        "z1 person": 0,
+        "z2 rock": 0,
+        "z3 park": 1,
+        "z4 name": 3,
+        "z0 climb :arg0 z1 person": 0,
+        "z0 climb :arg1 z2 rock": 0,
+        "z0 climb :location z3 park": 1,
+        "z3 park :name z4 name": 3,
+        "z4 name :op \"yosemite\"": 1
+    },
+    "4704083135.jpg#4r1n": {
+        "hyp": 1,
+        "z0 happy": 1,
+        "z1 lady": 0,
+        "z2 dance": 0,
+        "z0 happy :arg1 z1 lady": 1,
+        "z2 dance :arg0 z1 lady": 0
+    },
+    "4712411908.jpg#0r4e": {
+        "hyp": 0,
+        "z0 exercise": 0,
+        "z1 woman": 0,
+        "z2 stretch": 0,
+        "z0 exercise :arg0 z1 woman": 0,
+        "z0 exercise :manner z2 stretch": 0
+    },
+    "4734146340.jpg#0r2n": {
+        "hyp": 1,
+        "z0 be-located-at": 3,
+        "z1 man": 0,
+        "z2 beach": 1,
+        "z0 be-located-at :arg1 z1 man": 3,
+        "z0 be-located-at :arg2 z2 beach": 1
+    },
+    "4759710534.jpg#1r1c": {
+        "hyp": 2,
+        "z0 wear": 0,
+        "z1 woman": 0,
+        "z2 shirt": 2,
+        "z3 black": 3,
+        "z0 wear :arg0 z1 woman": 0,
+        "z0 wear :arg1 z2 shirt": 2,
+        "z3 black :arg1 z2 shirt": 2
+    },
+    "4791513183.jpg#2r1n": {
+        "hyp": 1,
+        "z0 bore": 1,
+        "z1 girl": 0,
+        "z0 bore :arg1 z1 girl": 1
+    },
+    "4797050581.jpg#4r1n": {
+        "hyp": 1,
+        "z0 exit": 1,
+        "z1 crowd": 0,
+        "z2 person": 0,
+        "z3 building": 1,
+        "z0 exit :arg0 z1 crowd": 1,
+        "z2 person :consist z1 crowd": 0,
+        "z0 exit :arg1 z3 building": 1
+    },
+    "4801764348.jpg#4r1e": {
+        "hyp": 1,
+        "z0 wait": 0,
+        "z1 family": 1,
+        "z2 someone": 1,
+        "z0 wait :arg1 z1 family": 1,
+        "z0 wait :arg2 z2 someone": 1
+    },
+    "4801849846.jpg#0r2n": {
+        "hyp": 1,
+        "z0 shop": 1,
+        "z1 man": 0,
+        "z2 downtown": 1,
+        "z0 shop :arg0 z1 man": 1,
+        "z0 shop :location z2 downtown": 1
+    },
+    "4818675994.jpg#4r1c": {
+        "hyp": 2,
+        "z0 ignore": 2,
+        "z1 woman": 0,
+        "z0 ignore :arg0 z1 woman": 2,
+        "z1 woman :quant 2": 0,
+        "z0 ignore :arg1 z1 woman": 2
+    },
+    "4831683216.jpg#4r1e": {
+        "hyp": 0,
+        "z0 drink": 0,
+        "z1 person": 0,
+        "z2 beer": 0,
+        "z0 drink :arg0 z1 person": 0,
+        "z0 drink :arg1 z2 beer": 0
+    },
+    "484280924.jpg#0r3e": {
+        "hyp": 0,
+        "z0 man": 0,
+        "z1 inside": 0,
+        "z2 building": 0,
+        "z0 man :location z1 inside": 0,
+        "z1 inside :op z2 building": 0
+    },
+    "484280924.jpg#0r4n": {
+        "hyp": 2,
+        "z0 make": 0,
+        "z1 man": 0,
+        "z2 sushi": 2,
+        "z3 go": 3,
+        "z0 make :arg0 z1 man": 0,
+        "z0 make :arg1 z2 sushi": 2,
+        "z0 make :purpose z3 go": 1
+    },
+    "4857776520.jpg#1r1n": {
+        "hyp": 1,
+        "z0 smoke": 0,
+        "z1 man": 0,
+        "z2 cigarette": 0,
+        "z3 menthol": 1,
+        "z0 smoke :arg0 z1 man": 0,
+        "z0 smoke :arg1 z2 cigarette": 0,
+        "z2 cigarette :mod z3 menthol": 1
+    },
+    "4876504906.jpg#4r1e": {
+        "hyp": 0,
+        "z0 inhale": 0,
+        "z1 nun": 0,
+        "z2 male": 0,
+        "z0 inhale :arg0 z1 nun": 0,
+        "z1 nun :mod z2 male": 0
+    },
+    "4878415659.jpg#0r2n": {
+        "hyp": 2,
+        "z0 walk": 0,
+        "z1 and": 3,
+        "z2 boy": 0,
+        "z3 little": 3,
+        "z4 woman": 0,
+        "z5 old": 3,
+        "z6 rain": 2,
+        "z0 walk :arg0 z1 and": 0,
+        "z1 and :op z2 boy": 0,
+        "z2 boy :mod z3 little": 0,
+        "z1 and :op z4 woman": 0,
+        "z4 woman :mod z5 old": 2,
+        "z0 walk :location z6 rain": 2
+    },
+    "4879951396.jpg#0r1n": {
+        "hyp": 1,
+        "z0 be-located-at": 3,
+        "z1 girl": 0,
+        "z2 have": 3,
+        "z3 umbrella": 0,
+        "z4 outside": 0,
+        "z5 rain": 1,
+        "z0 be-located-at :arg1 z1 girl": 3,
+        "z2 have :arg0 z1 girl": 3,
+        "z2 have :arg1 z3 umbrella": 0,
+        "z0 be-located-at :arg2 z4 outside": 0,
+        "z0 be-located-at :time z5 rain": 1
+    },
+    "4879951396.jpg#2r1e": {
+        "hyp": 0,
+        "z0 hold": 0,
+        "z1 woman": 0,
+        "z2 umbrella": 0,
+        "z0 hold :arg0 z1 woman": 0,
+        "z0 hold :arg1 z2 umbrella": 0
+    },
+    "489134459.jpg#2r1e": {
+        "hyp": 0,
+        "z0 be-located-at": 3,
+        "z1 child": 0,
+        "z2 in-front-of": 3,
+        "z3 house": 0,
+        "z0 be-located-at :arg1 z1 child": 3,
+        "z1 child :quant 2": 0,
+        "z0 be-located-at :arg2 z2 in-front-of": 3,
+        "z2 in-front-of :op z3 house": 0
+    },
+    "4893545292.jpg#4r2c": {
+        "hyp": 1,
+        "z0 videotape": 1,
+        "z1 woman": 0,
+        "z2 person": 1,
+        "z3 have-rel-role": 3,
+        "z4 friend": 1,
+        "z0 videotape :arg0 z1 woman": 1,
+        "z0 videotape :arg1 z2 person": 1,
+        "z3 have-rel-role :arg0 z2 person": 3,
+        "z3 have-rel-role :arg1 z1 woman": 3,
+        "z3 have-rel-role :arg2 z4 friend": 1
+    },
+    "4893545292.jpg#0r2c": {
+        "hyp": 2,
+        "z0 and": 3,
+        "z1 wear": 2,
+        "z2 woman": 0,
+        "z3 sunglasses": 2,
+        "z4 read": 1,
+        "z5 box": 1,
+        "z6 cereal": 2,
+        "z0 and :op z1 wear": 3,
+        "z1 wear :arg0 z2 woman": 2,
+        "z1 wear :arg1 z3 sunglasses": 2,
+        "z0 and :op z4 read": 3,
+        "z4 read :arg0 z2 woman": 1,
+        "z4 read :arg1 z5 box": 1,
+        "z5 box :mod z6 cereal": 2
+    },
+    "4895355979.jpg#4r1e": {
+        "hyp": 0,
+        "z0 photograph": 0,
+        "z1 man": 0,
+        "z2 statue": 0,
+        "z0 photograph :arg0 z1 man": 0,
+        "z0 photograph :arg1 z2 statue": 0
+    },
+    "4912108775.jpg#4r1n": {
+        "hyp": 1,
+        "z0 replace": 0,
+        "z1 man": 0,
+        "z2 window": 0,
+        "z3 home": 0,
+        "z0 replace :arg0 z1 man": 0,
+        "z0 replace :arg1 z2 window": 0,
+        "z3 home :part z2 window": 0,
+        "z3 home :poss z1 man": 1
+    },
+    "4978901111.jpg#3r1c": {
+        "hyp": 2,
+        "z0 compete": 1,
+        "z1 man": 2,
+        "z2 eat": 0,
+        "z3 hotdog": 2,
+        "z0 compete :arg0 z1 man": 2,
+        "z1 man :quant 2": 2,
+        "z0 compete :arg2 z2 eat": 1,
+        "z2 eat :arg0 z1 man": 0,
+        "z2 eat :arg1 z3 hotdog": 2
+    },
+    "506082695.jpg#0r1n": {
+        "hyp": 1,
+        "z0 male": 1,
+        "z1 person": 0,
+        "z0 male :domain z1 person": 1,
+        "z1 person :quant 2": 0
+    },
+    "514165525.jpg#2r1e": {
+        "hyp": 0,
+        "z0 operate": 0,
+        "z1 someone": 0,
+        "z2 ride": 0,
+        "z0 operate :arg0 z1 someone": 0,
+        "z0 operate :arg1 z2 ride": 0
+    },
+    "516360813.jpg#1r1e": {
+        "hyp": 0,
+        "z0 wear": 0,
+        "z1 man": 0,
+        "z2 shirt": 0,
+        "z0 wear :arg0 z1 man": 0,
+        "z0 wear :arg1 z2 shirt": 0
+    },
+    "517942470.jpg#0r1e": {
+        "hyp": 0,
+        "z0 look-up": 0,
+        "z1 dog": 0,
+        "z0 look-up :arg0 z1 dog": 0
+    },
+    "520913429.jpg#4r1e": {
+        "hyp": 0,
+        "z0 sweep": 0,
+        "z1 man": 0,
+        "z0 sweep :arg0 z1 man": 0
+    },
+    "5220880759.jpg#0r1n": {
+        "hyp": 2,
+        "z0 use": 2,
+        "z1 man": 0,
+        "z2 washcloth": 2,
+        "z3 blue": 3,
+        "z4 shower": 0,
+        "z0 use :arg0 z1 man": 2,
+        "z0 use :arg1 z2 washcloth": 2,
+        "z2 washcloth :mod z3 blue": 2,
+        "z0 use :time z4 shower": 2,
+        "z4 shower :arg0 z1 man": 0
+    },
+    "5428390334.jpg#3r1c": {
+        "hyp": 2,
+        "z0 look": 0,
+        "z1 man": 0,
+        "z2 telescope": 2,
+        "z3 field": 2,
+        "z0 look :arg0 z1 man": 0,
+        "z0 look :arg1 z2 telescope": 2,
+        "z0 look :location z3 field": 2
+    },
+    "55438559.jpg#4r1e": {
+        "hyp": 0,
+        "z0 run": 0,
+        "z1 kid": 0,
+        "z0 run :arg0 z1 kid": 0
+    },
+    "558338473.jpg#4r1e": {
+        "hyp": 0,
+        "z0 do": 3,
+        "z1 man": 0,
+        "z2 art": 3,
+        "z3 martial": 3,
+        "z0 do :arg0 z1 man": 0,
+        "z1 man :quant 2": 0,
+        "z0 do :arg1 z2 art": 0,
+        "z2 art :mod z3 martial": 0
+    },
+    "5631556013.jpg#2r1e": {
+        "hyp": 0,
+        "z0 wear": 0,
+        "z1 man": 0,
+        "z2 shorts": 0,
+        "z0 wear :arg0 z1 man": 0,
+        "z0 wear :arg1 z2 shorts": 0
+    },
+    "5732777684.jpg#3r1c": {
+        "hyp": 2,
+        "z0 walk": 0,
+        "z1 woman": 0,
+        "z2 solitary": 2,
+        "z3 along": 3,
+        "z4 track": 0,
+        "z5 train": 0,
+        "z6 some": 3,
+        "z0 walk :arg0 z1 woman": 0,
+        "z1 woman :mod z2 solitary": 2,
+        "z0 walk :arg2 z3 along": 0,
+        "z3 along :op z4 track": 0,
+        "z4 track :mod z5 train": 0,
+        "z4 track :quant z6 some": 0
+    },
+    "5892931627.jpg#4r1e": {
+        "hyp": 0,
+        "z0 play": 0,
+        "z1 person": 0,
+        "z2 baseball": 0,
+        "z0 play :arg0 z1 person": 0,
+        "z0 play :arg1 z2 baseball": 0
+    },
+    "5892931627.jpg#1r1c": {
+        "hyp": 2,
+        "z0 finish": 2,
+        "z1 team": 0,
+        "z2 baseball": 0,
+        "z3 game": 0,
+        "z4 just": 3,
+        "z0 finish :arg0 z1 team": 2,
+        "z1 team :mod z2 baseball": 0,
+        "z0 finish :arg1 z3 game": 2,
+        "z0 finish :time z4 just": 3
+    },
+    "5901845159.jpg#4r1e": {
+        "hyp": 0,
+        "z0 look": 0,
+        "z1 boy": 0,
+        "z2 little": 3,
+        "z3 statue": 0,
+        "z0 look :arg0 z1 boy": 0,
+        "z1 boy :mod z2 little": 0,
+        "z0 look :arg1 z3 statue": 0
+    },
+    "6053720349.jpg#1r1n": {
+        "hyp": 1,
+        "z0 and": 3,
+        "z1 happy": 1,
+        "z2 child": 0,
+        "z3 excite": 1,
+        "z4 sit": 0,
+        "z5 inside": 0,
+        "z6 container": 0,
+        "z0 and :op z1 happy": 3,
+        "z1 happy :arg1 z2 child": 1,
+        "z0 and :op z3 excite": 3,
+        "z3 excite :arg1 z2 child": 1,
+        "z0 and :time z4 sit": 3,
+        "z4 sit :arg1 z2 child": 0,
+        "z4 sit :arg2 z5 inside": 0,
+        "z5 inside :op z6 container": 0
+    },
+    "617782839.jpg#4r3n": {
+        "hyp": 1,
+        "z0 shoot": 0,
+        "z1 man": 0,
+        "z2 and": 3,
+        "z3 bow": 0,
+        "z4 arrow": 0,
+        "z5 accurate": 1,
+        "z0 shoot :arg0 z1 man": 0,
+        "z0 shoot :arg1 z2 and": 3,
+        "z2 and :op z3 bow": 0,
+        "z2 and :op z4 arrow": 0,
+        "z0 shoot :manner z5 accurate": 1
+    },
+    "620595746.jpg#1r1e": {
+        "hyp": 0,
+        "z0 walk": 0,
+        "z1 lady": 0,
+        "z2 black": 3,
+        "z3 beach": 0,
+        "z4 between": 3,
+        "z5 crowd": 0,
+        "z0 walk :arg0 z1 lady": 0,
+        "z2 black :arg1 z1 lady": 0,
+        "z0 walk :arg2 z3 beach": 0,
+        "z3 beach :location z4 between": 3,
+        "z4 between :op z5 crowd": 0
+    },
+    "6218244928.jpg#2r1n": {
+        "hyp": 1,
+        "z0 set-up": 0,
+        "z1 group": 0,
+        "z2 person": 0,
+        "z3 equip": 0,
+        "z4 fish": 1,
+        "z0 set-up :arg0 z1 group": 0,
+        "z2 person :consist z1 group": 0,
+        "z0 set-up :arg1 z3 equip": 0,
+        "z3 equip :arg2 z4 fish": 1
+    },
+    "6314475602.jpg#0r1e": {
+        "hyp": 0,
+        "z0 stand": 0,
+        "z1 man": 0,
+        "z2 bunch": 3,
+        "z3 around": 3,
+        "z4 outside": 0,
+        "z0 stand :arg1 z1 man": 0,
+        "z1 man :quant z2 bunch": 0,
+        "z0 stand :arg2 z3 around": 0,
+        "z3 around :op z4 outside": 0
+    },
+    "6728801573.jpg#2r1e": {
+        "hyp": 0,
+        "z0 woman": 0,
+        "z1 work": 0,
+        "z2 bicycle": 0,
+        "z1 work :arg0 z0 woman": 0,
+        "z1 work :manner z2 bicycle": 0
+    },
+    "6839984356.jpg#2r1e": {
+        "hyp": 0,
+        "z0 young": 0,
+        "z1 person": 0,
+        "z0 young :domain z1 person": 0
+    },
+    "6841943688.jpg#3r1n": {
+        "hyp": 0,
+        "z0 hold": 0,
+        "z1 person": 0,
+        "z2 instrument": 0,
+        "z0 hold :arg0 z1 person": 0,
+        "z0 hold :arg1 z2 instrument": 0
+    },
+    "6870585516.jpg#0r1e": {
+        "hyp": 0,
+        "z0 be-located-at": 3,
+        "z1 person": 0,
+        "z2 escalator": 0,
+        "z0 be-located-at :arg1 z1 person": 3,
+        "z0 be-located-at :arg2 z2 escalator": 0
+    },
+    "687513087.jpg#3r1n": {
+        "hyp": 0,
+        "z0 snarl": 0,
+        "z1 pitbull": 0,
+        "z0 snarl :arg0 z1 pitbull": 0,
+        "z0 snarl :arg1 z1 pitbull": 0
+    },
+    "7330749240.jpg#1r1e": {
+        "hyp": 0,
+        "z0 race": 0,
+        "z1 car": 0,
+        "z0 race :arg0 z1 car": 0,
+        "z0 race :arg1 z1 car": 0
+    },
+    "74759622.jpg#3r1e": {
+        "hyp": 0,
+        "z0 drink": 0,
+        "z1 he": 0,
+        "z2 bathroom": 0,
+        "z3 even": 3,
+        "z0 drink :arg0 z1 he": 0,
+        "z0 drink :location z2 bathroom": 0,
+        "z0 drink :mod z3 even": 3
+    },
+    "7772052674.jpg#3r1e": {
+        "hyp": 0,
+        "z0 person": 0,
+        "z1 inside": 0,
+        "z0 person :location z1 inside": 0
+    },
+    "7990849887.jpg#2r1e": {
+        "hyp": 0,
+        "z0 play": 0,
+        "z1 band": 0,
+        "z0 play :arg0 z1 band": 0
+    },
+    "84509831.jpg#3r1n": {
+        "hyp": 1,
+        "z0 be-located-at": 3,
+        "z1 person": 0,
+        "z2 ocean": 1,
+        "z0 be-located-at :arg1 z1 person": 3,
+        "z0 be-located-at :arg2 z2 ocean": 1
+    },
+    "97162852.jpg#2r5e": {
+        "hyp": 0,
+        "z0 sew": 0,
+        "z1 woman": 0,
+        "z2 street": 0,
+        "z0 sew :arg0 z1 woman": 0,
+        "z0 sew :location z2 street": 0
+    },
+    "97162852.jpg#2r2e": {
+        "hyp": 0,
+        "z0 person": 0,
+        "z1 outdoors": 0,
+        "z0 person :location z1 outdoors": 0
+    },
+    "191592626.jpg#1r1n": {
+        "hyp": 0,
+        "z0 reach": 0,
+        "z1 person": 0,
+        "z2 climb": 0,
+        "z3 mountain": 0,
+        "z4 hilltop": 0,
+        "z0 reach :arg0 z1 person": 0,
+        "z2 climb :arg0 z1 person": 0,
+        "z2 climb :arg1 z3 mountain": 0,
+        "z0 reach :arg1 z4 hilltop": 0
+    },
+    "1872000955.jpg#0r5e": {
+        "hyp": 0,
+        "z0 work": 0,
+        "z1 person": 0,
+        "z2 work": 0,
+        "z3 rock": 0,
+        "z0 work :arg0 z1 person": 0,
+        "z2 work :arg0 z1 person": 0,
+        "z0 work :arg1 z3 rock": 0
+    },
+    "140774394.jpg#1r1e": {
+        "hyp": 0,
+        "z0 work": 0,
+        "z1 man": 0,
+        "z0 work :arg0 z1 man": 0
+    },
+    "1330645772.jpg#2r1e": {
+        "hyp": 0,
+        "z0 dog": 0,
+        "z1 outside": 0,
+        "z0 dog :location z1 outside": 0
+    },
+    "1303727066.jpg#2r3e": {
+        "hyp": 0,
+        "z0 have": 3,
+        "z1 man": 0,
+        "z2 beard": 0,
+        "z0 have :arg0 z1 man": 3,
+        "z0 have :arg1 z2 beard": 0
+    },
+    "1295719054.jpg#2r3c": {
+        "hyp": 2,
+        "z0 sit": 2,
+        "z1 boy": 0,
+        "z2 young": 3,
+        "z0 sit :arg1 z1 boy": 2,
+        "z1 boy :quant 4": 0,
+        "z1 boy :mod z2 young": 0
+    },
+    "123997871.jpg#3r1e": {
+        "hyp": 0,
+        "z0 wear": 0,
+        "z1 girl": 0,
+        "z2 uniform": 0,
+        "z0 wear :arg0 z1 girl": 0,
+        "z0 wear :arg1 z2 uniform": 0
+    },
+    "1235099089.jpg#1r1e": {
+        "hyp": 0,
+        "z0 run": 0,
+        "z1 lady": 0,
+        "z2 young": 3,
+        "z0 run :arg0 z1 lady": 0,
+        "z1 lady :mod z2 young": 0
+    },
+    "1235099089.jpg#0r2e": {
+        "hyp": 0,
+        "z0 run": 0,
+        "z1 girl": 0,
+        "z2 grass": 0,
+        "z0 run :arg0 z1 girl": 0,
+        "z0 run :location z2 grass": 0
+    },
+    "123101580.jpg#1r1e": {
+        "hyp": 0,
+        "z0 play": 0,
+        "z1 girl": 0,
+        "z2 soccer": 0,
+        "z3 outside": 0,
+        "z0 play :arg0 z1 girl": 0,
+        "z1 girl :quant 2": 0,
+        "z0 play :arg1 z2 soccer": 0,
+        "z0 play :location z3 outside": 0
+    },
+    "1181708011.jpg#2r1n": {
+        "hyp": 1,
+        "z0 have-rel-role": 3,
+        "z1 woman": 0,
+        "z2 man": 0,
+        "z3 wife": 1,
+        "z0 have-rel-role :arg0 z1 woman": 3,
+        "z0 have-rel-role :arg1 z2 man": 3,
+        "z0 have-rel-role :arg2 z3 wife": 1
+    },
+    "1160441615.jpg#4r1e": {
+        "hyp": 0,
+        "z0 woman": 0,
+        "z1 outside": 0,
+        "z2 some": 3,
+        "z0 woman :location z1 outside": 0,
+        "z0 woman :quant z2 some": 0
+    },
+    "1157215900.jpg#4r5n": {
+        "hyp": 0,
+        "z0 display": 0,
+        "z1 woman": 0,
+        "z2 old": 3,
+        "z3 bread": 0,
+        "z0 display :arg0 z1 woman": 0,
+        "z1 woman :mod z2 old": 0,
+        "z0 display :arg1 z3 bread": 0
+    },
+    "1053116826.jpg#2r1c": {
+        "hyp": 2,
+        "z0 sit": 0,
+        "z1 person": 0,
+        "z2 young": 3,
+        "z3 bench": 2,
+        "z0 sit :arg1 z1 person": 0,
+        "z1 person :mod z2 young": 0,
+        "z0 sit :arg2 z3 bench": 2
+    },
+    "1053116826.jpg#1r1e": {
+        "hyp": 0,
+        "z0 play": 0,
+        "z1 child": 0,
+        "z2 grass": 0,
+        "z0 play :arg0 z1 child": 0,
+        "z1 child :quant 2": 0,
+        "z0 play :location z2 grass": 0
+    },
+    "104285082.jpg#3r1n": {
+        "hyp": 1,
+        "z0 include": 3,
+        "z1 group": 0,
+        "z2 person": 0,
+        "z3 band": 1,
+        "z0 include :arg1 z1 group": 3,
+        "z2 person :consist z1 group": 0,
+        "z0 include :arg2 z3 band": 1
+    },
+    "1016887272.jpg#0r3n": {
+        "hyp": 1,
+        "z0 take": 3,
+        "z1 person": 0,
+        "z2 class": 1,
+        "z3 climb": 0,
+        "z4 rock": 0,
+        "z0 take :arg0 z1 person": 3,
+        "z0 take :arg1 z2 class": 1,
+        "z2 class :topic z3 climb": 1,
+        "z3 climb :arg1 z4 rock": 0
+    },
+    "101262930.jpg#2r1e": {
+        "hyp": 0,
+        "z0 affectionate": 0,
+        "z1 person": 0,
+        "z0 affectionate :domain z1 person": 0,
+        "z1 person :quant 2": 0
+    },
+    "1015118661.jpg#4r1e": {
+        "hyp": 0,
+        "z0 boy": 0,
+        "z1 outside": 0,
+        "z0 boy :location z1 outside": 0
+    },
+    "1012150929.jpg#1r4e": {
+        "hyp": 2,
+        "z0 sit": 2,
+        "z1 boy": 0,
+        "z2 play": 0,
+        "z3 game": 0,
+        "z4 inside": 0,
+        "z5 building": 0,
+        "z0 sit :arg1 z1 boy": 2,
+        "z2 play :arg0 z1 boy": 0,
+        "z2 play :arg1 z3 game": 0,
+        "z0 sit :arg2 z4 inside": 2,
+        "z4 inside :op z5 building": 0
+    },
+    "1011572216.jpg#1r1e": {
+        "hyp": 0,
+        "z0 walk": 0,
+        "z1 couple": 0,
+        "z2 outdoors": 0,
+        "z3 together": 3,
+        "z0 walk :arg0 z1 couple": 0,
+        "z0 walk :arg2 z2 outdoors": 0,
+        "z0 walk :manner z3 together": 0
+    },
+    "16158623.jpg#0r4e": {
+        "hyp": 0,
+        "z0 work": 0,
+        "z1 man": 0,
+        "z0 work :arg0 z1 man": 0,
+        "z1 man :quant 2": 0
+    },
+    "3799708677.jpg#3r1e": {
+        "hyp": 0,
+        "z0 walk": 0,
+        "z1 man": 0,
+        "z0 walk :arg0 z1 man": 0,
+        "z1 man :quant 2": 0
+    },
+    "268365231.jpg#0r1c": {
+        "hyp": 2,
+        "z0 crawl": 2,
+        "z1 person": 0,
+        "z2 ground": 0,
+        "z0 crawl :arg0 z1 person": 2,
+        "z1 person :quant 2": 0,
+        "z0 crawl :arg1 z2 ground": 2
+    },
+    "4584266249.jpg#3r1c": {
+        "hyp": 2,
+        "z0 burn": 2,
+        "z1 woman": 0,
+        "z2 church": 2,
+        "z3 down": 3,
+        "z0 burn :arg0 z1 woman": 2,
+        "z1 woman :quant 2": 0,
+        "z0 burn :arg1 z2 church": 2,
+        "z0 burn :mod z3 down": 2
+    },
+    "1234206849.jpg#4r4e": {
+        "hyp": 0,
+        "z0 pose": 0,
+        "z1 woman": 0,
+        "z2 cover": 0,
+        "z3 head": 0,
+        "z4 picture": 0,
+        "z0 pose :arg0 z1 woman": 0,
+        "z2 cover :arg0 z1 woman": 0,
+        "z2 cover :arg1 z3 head": 0,
+        "z1 woman :part z3 head": 0,
+        "z0 pose :purpose z4 picture": 0
+    },
+    "3944497603.jpg#4r1n": {
+        "hyp": 1,
+        "z0 sleep": 0,
+        "z1 person": 0,
+        "z2 work": 1,
+        "z3 about-to": 3,
+        "z4 fall-off": 1,
+        "z0 sleep :arg0 z1 person": 0,
+        "z2 work :arg0 z1 person": 1,
+        "z0 sleep :time z3 about-to": 1,
+        "z3 about-to :op z4 fall-off": 1,
+        "z4 fall-off :arg1 z1 person": 1
+    },
+    "4328538175.jpg#2r1n": {
+        "hyp": 1,
+        "z0 try": 0,
+        "z1 couple": 1,
+        "z2 solve": 0,
+        "z3 mystery": 1,
+        "z0 try :arg0 z1 couple": 1,
+        "z0 try :arg1 z2 solve": 0,
+        "z2 solve :arg0 z1 couple": 1,
+        "z2 solve :arg1 z3 mystery": 1
+    },
+    "3809758561.jpg#0r1c": {
+        "hyp": 2,
+        "z0 sit": 2,
+        "z1 man": 0,
+        "z2 booth": 0,
+        "z3 small": 3,
+        "z4 street": 0,
+        "z5 hand": 0,
+        "z0 sit :arg1 z1 man": 2,
+        "z0 sit :arg2 z2 booth": 2,
+        "z2 booth :mod z3 small": 0,
+        "z2 booth :location z4 street": 0,
+        "z0 sit :manner z5 hand": 2,
+        "z1 man :part z5 hand": 0
+    },
+    "6870444330.jpg#0r1c": {
+        "hyp": 2,
+        "z0 sing": 1,
+        "z1 woman": 2,
+        "z2 opera": 1,
+        "z3 beautiful": 1,
+        "z0 sing :arg0 z1 woman": 2,
+        "z0 sing :arg1 z2 opera": 0,
+        "z3 beautiful :arg1 z0 sing": 1
+    },
+    "2743465453.jpg#4r1n": {
+        "hyp": 1,
+        "z0 ready": 0,
+        "z1 lady": 0,
+        "z2 food": 0,
+        "z3 dinner": 1,
+        "z0 ready :arg0 z1 lady": 0,
+        "z0 ready :arg1 z2 food": 0,
+        "z0 ready :arg2 z3 dinner": 1
+    },
+    "2973269132.jpg#4r1n": {
+        "hyp": 1,
+        "z0 hunger": 1,
+        "z1 lioness": 0,
+        "z0 hunger :arg0 z1 lioness": 1
+    },
+    "2324804923.jpg#2r1n": {
+        "hyp": 1,
+        "z0 speak": 0,
+        "z1 man": 0,
+        "z2 person": 0,
+        "z3 have-rel-role": 3,
+        "z4 friend": 1,
+        "z5 bar": 1,
+        "z0 speak :arg0 z1 man": 0,
+        "z0 speak :arg2 z2 person": 1,
+        "z3 have-rel-role :arg0 z2 person": 3,
+        "z3 have-rel-role :arg1 z1 man": 0,
+        "z3 have-rel-role :arg2 z4 friend": 1,
+        "z0 speak :location z5 bar": 1
+    },
+    "7249187716.jpg#3r1e": {
+        "hyp": 0,
+        "z0 swim": 0,
+        "z1 person": 0,
+        "z0 swim :arg0 z1 person": 0
+    },
+    "2441313372.jpg#4r1n": {
+        "hyp": 1,
+        "z0 fall": 1,
+        "z1 boy": 0,
+        "z2 recent": 3,
+        "z0 fall :arg1 z1 boy": 1,
+        "z0 fall :time z2 recent": 1
+    },
+    "2125626631.jpg#3r1e": {
+        "hyp": 0,
+        "z0 dog": 0,
+        "z1 small": 3,
+        "z0 dog :mod z1 small": 0
+    },
+    "437549483.jpg#2r1e": {
+        "hyp": 0,
+        "z0 young": 0,
+        "z1 female": 0,
+        "z0 young :domain z1 female": 0
+    },
+    "39024981.jpg#3r1e": {
+        "hyp": 0,
+        "z0 talk": 0,
+        "z1 person": 0,
+        "z0 talk :arg0 z1 person": 0,
+        "z1 person :quant 2": 0
+    },
+    "3201517121.jpg#0r1n": {
+        "hyp": 1,
+        "z0 fight": 0,
+        "z1 soldier": 1,
+        "z2 after": 3,
+        "z3 argue": 1,
+        "z0 fight :arg0 z1 soldier": 1,
+        "z1 soldier :quant 2": 1,
+        "z0 fight :time z2 after": 3,
+        "z2 after :op z3 argue": 1
+    },
+    "1234206849.jpg#0r1n": {
+        "hyp": 1,
+        "z0 pose": 0,
+        "z1 woman": 0,
+        "z2 vacation": 1,
+        "z3 picture": 0,
+        "z0 pose :arg0 z1 woman": 0,
+        "z1 woman :quant 2": 0,
+        "z2 vacation :arg0 z1 woman": 1,
+        "z0 pose :purpose z3 picture": 0
+    },
+    "1775223211.jpg#0r5e": {
+        "hyp": 0,
+        "z0 examine": 0,
+        "z1 woman": 0,
+        "z2 weave": 0,
+        "z0 examine :arg0 z1 woman": 0,
+        "z1 woman :quant 2": 0,
+        "z0 examine :arg1 z2 weave": 0
+    },
+    "4716333601.jpg#0r1e": {
+        "hyp": 0,
+        "z0 walk": 0,
+        "z1 woman": 0,
+        "z2 across": 3,
+        "z3 street": 0,
+        "z0 walk :arg0 z1 woman": 0,
+        "z1 woman :quant 2": 0,
+        "z0 walk :arg2 z2 across": 0,
+        "z2 across :op z3 street": 0
+    },
+    "8143343377.jpg#0r1c": {
+        "hyp": 2,
+        "z0 woman": 2,
+        "z1 play": 0,
+        "z2 violin": 0,
+        "z3 play": 0,
+        "z4 drum": 1,
+        "z0 woman :quant 2": 2,
+        "z1 play :arg0 z0 woman": 2,
+        "z1 play :arg1 z2 violin": 0,
+        "z3 play :arg0 z0 woman": 2,
+        "z3 play :arg1 z4 drum": 1
+    },
+    "5504963988.jpg#3r1e": {
+        "hyp": 0,
+        "z0 ready": 0,
+        "z1 person": 0,
+        "z2 work": 0,
+        "z3 food": 0,
+        "z0 ready :arg0 z1 person": 0,
+        "z2 work :arg0 z1 person": 0,
+        "z0 ready :arg1 z3 food": 0
+    },
+    "3745474894.jpg#2r1e": {
+        "hyp": 0,
+        "z0 gather": 0,
+        "z1 person": 0,
+        "z2 young": 3,
+        "z3 field": 0,
+        "z0 gather :arg0 z1 person": 0,
+        "z1 person :mod z2 young": 0,
+        "z0 gather :location z3 field": 0
+    },
+    "2874876837.jpg#1r1e": {
+        "hyp": 0,
+        "z0 play": 0,
+        "z1 boy": 0,
+        "z2 outside": 0,
+        "z0 play :arg0 z1 boy": 0,
+        "z0 play :location z2 outside": 0
+    },
+    "3308171165.jpg#3r1e": {
+        "hyp": 0,
+        "z0 stare": 0,
+        "z1 girl": 0,
+        "z0 stare :arg0 z1 girl": 0
+    },
+    "3072074170.jpg#3r1n": {
+        "hyp": 1,
+        "z0 stand": 0,
+        "z1 man": 0,
+        "z2 outside": 0,
+        "z3 hand": 0,
+        "z4 crowd": 1,
+        "z0 stand :arg1 z1 man": 0,
+        "z0 stand :arg2 z2 outside": 0,
+        "z0 stand :manner z3 hand": 0,
+        "z1 man :part z3 hand": 0,
+        "z0 stand :beneficiary z4 crowd": 1
+    },
+    "1196746186.jpg#1r1e": {
+        "hyp": 0,
+        "z0 walk": 0,
+        "z1 person": 0,
+        "z2 beach": 0,
+        "z0 walk :arg0 z1 person": 0,
+        "z0 walk :arg2 z2 beach": 0
+    },
+    "3515451715.jpg#4r1e": {
+        "hyp": 0,
+        "z0 human": 0,
+        "z1 outside": 0,
+        "z0 human :location z1 outside": 0
+    },
+    "3597715122.jpg#4r1n": {
+        "hyp": 1,
+        "z0 wait": 0,
+        "z1 person": 0,
+        "z2 some": 3,
+        "z3 buy": 1,
+        "z4 ice-cream": 3,
+        "z0 wait :arg1 z1 person": 0,
+        "z1 person :mod z2 some": 0,
+        "z0 wait :arg2 z3 buy": 1,
+        "z3 buy :arg0 z1 person": 1,
+        "z3 buy :arg1 z4 ice-cream": 1
+    },
+    "4734146340.jpg#0r5n": {
+        "hyp": 1,
+        "z0 man": 0,
+        "z1 farm": 1,
+        "z1 farm :arg0 z0 man": 1
+    },
+    "2858456847.jpg#0r1c": {
+        "hyp": 2,
+        "z0 naked": 2,
+        "z1 woman": 0,
+        "z0 naked :domain z1 woman": 2
+    },
+    "4686568156.jpg#1r1c": {
+        "hyp": 1,
+        "z0 hate": 1,
+        "z1 they": 0,
+        "z0 hate :arg0 z1 they": 1,
+        "z0 hate :arg1 z1 they": 1
+    },
+    "2747436384.jpg#2r1e": {
+        "hyp": 0,
+        "z0 boy": 0,
+        "z1 ocean": 0,
+        "z0 boy :quant 3": 0,
+        "z0 boy :location z1 ocean": 0
+    },
+    "2466420387.jpg#2r1e": {
+        "hyp": 0,
+        "z0 lean": 0,
+        "z1 girl": 0,
+        "z0 lean :arg1 z1 girl": 0,
+        "z1 girl :quant 2": 0
+    },
+    "3508522093.jpg#4r1e": {
+        "hyp": 0,
+        "z0 boy": 0,
+        "z1 outside": 0,
+        "z0 boy :location z1 outside": 0
+    },
+    "5131842202.jpg#2r1n": {
+        "hyp": 1,
+        "z0 kill": 1,
+        "z1 clown": 0,
+        "z0 kill :arg0 z1 clown": 1
+    },
+    "5131842202.jpg#2r1e": {
+        "hyp": 0,
+        "z0 seat": 0,
+        "z1 crown": 0,
+        "z0 seat :arg1 z1 crown": 0
+    },
+    "2856524322.jpg#4r1c": {
+        "hyp": 2,
+        "z0 be-located-at": 3,
+        "z1 man": 0,
+        "z2 plane": 2,
+        "z0 be-located-at :arg1 z1 man": 3,
+        "z0 be-located-at :arg2 z2 plane": 2
+    },
+    "2842439618.jpg#2r1n": {
+        "hyp": 1,
+        "z0 professional": 1,
+        "z1 person": 0,
+        "z0 professional :domain z1 person": 1
+    },
+    "3422458549.jpg#4r1e": {
+        "hyp": 0,
+        "z0 have": 3,
+        "z1 person": 0,
+        "z2 play": 0,
+        "z3 racket": 0,
+        "z0 have :arg0 z1 person": 3,
+        "z2 play :arg0 z1 person": 0,
+        "z0 have :arg1 z3 racket": 0
+    },
+    "3559693175.jpg#2r1n": {
+        "hyp": 1,
+        "z0 new": 3,
+        "z1 store": 0,
+        "z0 new :arg1 z1 store": 1
+    },
+    "201314419.jpg#1r1c": {
+        "hyp": 2,
+        "z0 eat": 2,
+        "z1 dog": 2,
+        "z2 cheese": 2,
+        "z0 eat :arg0 z1 dog": 2,
+        "z1 dog :quant 2": 2,
+        "z0 eat :arg1 z2 cheese": 2
+    },
+    "3149038044.jpg#2r1n": {
+        "hyp": 1,
+        "z0 play": 0,
+        "z1 kid": 0,
+        "z2 grass": 0,
+        "z3 mop": 1,
+        "z4 fresh": 3,
+        "z0 play :arg0 z1 kid": 0,
+        "z1 kid :quant 2": 0,
+        "z0 play :location z2 grass": 0,
+        "z3 mop :arg1 z2 grass": 1,
+        "z4 fresh :arg1 z3 mop": 1
+    },
+    "177591612.jpg#0r4e": {
+        "hyp": 0,
+        "z0 tangle": 0,
+        "z1 man": 0,
+        "z0 tangle :arg1 z1 man": 0,
+        "z1 man :quant 2": 0
+    },
+    "65845718.jpg#4r1c": {
+        "hyp": 2,
+        "z0 dive": 2,
+        "z1 boy": 2,
+        "z2 wave": 2,
+        "z3 ocean": 1,
+        "z0 dive :arg0 z1 boy": 2,
+        "z0 dive :arg1 z2 wave": 2,
+        "z2 wave :mod z3 ocean": 2
+    },
+    "1112334131.jpg#2r1e": {
+        "hyp": 2,
+        "z0 have": 3,
+        "z1 boy": 0,
+        "z2 alone": 2,
+        "z3 ice-cream": 0,
+        "z0 have :arg0 z1 boy": 0,
+        "z1 boy :mod z2 alone": 2,
+        "z0 have :arg1 z3 ice-cream": 0
+    },
+    "6191516871.jpg#4r1n": {
+        "hyp": 1,
+        "z0 meditate": 1,
+        "z1 monk": 1,
+        "z2 some": 3,
+        "z0 meditate :arg0 z1 monk": 1,
+        "z1 monk :quant z2 some": 1
+    },
+    "489134459.jpg#4r1e": {
+        "hyp": 0,
+        "z0 kid": 0,
+        "z1 outside": 0,
+        "z0 kid :quant 2": 0,
+        "z0 kid :location z1 outside": 0
+    },
+    "2284894733.jpg#3r1n": {
+        "hyp": 2,
+        "z0 descend": 0,
+        "z1 dog": 0,
+        "z2 smile": 2,
+        "z3 ramp": 0,
+        "z0 descend :arg0 z1 dog": 0,
+        "z2 smile :arg0 z1 dog": 2,
+        "z0 descend :arg1 z3 ramp": 0
+    },
+    "3246724744.jpg#3r1n": {
+        "hyp": 0,
+        "z0 jump": 0,
+        "z1 girl": 0,
+        "z2 beach": 0,
+        "z0 jump :arg0 z1 girl": 0,
+        "z0 jump :destination z2 beach": 0
+    },
+    "1408958345.jpg#4r2e": {
+        "hyp": 0,
+        "z0 girl": 0,
+        "z1 outside": 0,
+        "z0 girl :location z1 outside": 0
+    },
+    "227689211.jpg#2r1c": {
+        "hyp": 2,
+        "z0 sleep": 2,
+        "z1 fireman": 1,
+        "z0 sleep :arg0 z1 fireman": 2
+    },
+    "1330645772.jpg#4r2n": {
+        "hyp": 1,
+        "z0 chase": 1,
+        "z1 dog": 0,
+        "z2 boy": 1,
+        "z3 field": 0,
+        "z0 chase :arg0 z1 dog": 1,
+        "z0 chase :arg1 z2 boy": 1,
+        "z0 chase :location z3 field": 1
+    },
+    "2219805467.jpg#3r1c": {
+        "hyp": 2,
+        "z0 carry": 0,
+        "z1 dog": 0,
+        "z2 bird": 2,
+        "z3 mouth": 0,
+        "z0 carry :arg0 z1 dog": 0,
+        "z0 carry :arg1 z2 bird": 2,
+        "z0 carry :location z3 mouth": 0,
+        "z1 dog :part z3 mouth": 0
+    },
+    "3738685861.jpg#0r1e": {
+        "hyp": 0,
+        "z0 play": 0,
+        "z1 child": 0,
+        "z0 play :arg0 z1 child": 0
+    },
+    "3219606.jpg#4r1n": {
+        "hyp": 1,
+        "z0 perform": 0,
+        "z1 choir": 0,
+        "z2 set": 0,
+        "z3 church": 1,
+        "z0 perform :arg0 z1 choir": 0,
+        "z0 perform :arg1 z2 set": 0,
+        "z2 set :poss z1 choir": 0,
+        "z0 perform :location z3 church": 1
+    },
+    "3738685861.jpg#4r1c": {
+        "hyp": 2,
+        "z0 sleep": 2,
+        "z1 child": 0,
+        "z2 inside": 2,
+        "z0 sleep :arg0 z1 child": 2,
+        "z0 sleep :location z2 inside": 2
+    },
+    "3157745346.jpg#3r1n": {
+        "hyp": 1,
+        "z0 get": 1,
+        "z1 person": 0,
+        "z2 bicycle": 1,
+        "z3 compete": 1,
+        "z4 money": 1,
+        "z5 atm": 0,
+        "z0 get :arg0 z1 person": 1,
+        "z2 bicycle :arg0 z1 person": 1,
+        "z3 compete :arg0 z1 person": 1,
+        "z0 get :arg1 z4 money": 1,
+        "z0 get :arg2 z5 atm": 1
+    },
+    "512309690.jpg#3r1e": {
+        "hyp": 0,
+        "z0 make": 0,
+        "z1 person": 0,
+        "z2 music": 0,
+        "z0 make :arg0 z1 person": 0,
+        "z0 make :arg1 z2 music": 0
+    },
+    "1117972841.jpg#0r4n": {
+        "hyp": 1,
+        "z0 dog": 0,
+        "z1 beach": 1,
+        "z0 dog :location z1 beach": 1
+    },
+    "4684005479.jpg#0r1e": {
+        "hyp": 0,
+        "z0 man": 0,
+        "z1 wear": 0,
+        "z2 jersey": 0,
+        "z3 outside": 0,
+        "z1 wear :arg0 z0 man": 0,
+        "z1 wear :arg1 z2 jersey": 0,
+        "z0 man :location z3 outside": 0
+    },
+    "3256274183.jpg#0r5e": {
+        "hyp": 0,
+        "z0 assist": 0,
+        "z1 man": 0,
+        "z2 man": 0,
+        "z3 another": 3,
+        "z0 assist :arg0 z1 man": 0,
+        "z0 assist :arg1 z2 man": 0,
+        "z2 man :mod z3 another": 0
+    },
+    "1408958345.jpg#0r5n": {
+        "hyp": 1,
+        "z0 run": 0,
+        "z1 girl": 0,
+        "z2 little": 3,
+        "z3 get": 3,
+        "z4 seashell": 1,
+        "z0 run :arg0 z1 girl": 0,
+        "z1 girl :mod z2 little": 0,
+        "z0 run :purpose z3 get": 1,
+        "z3 get :arg0 z1 girl": 3,
+        "z3 get :arg1 z4 seashell": 1
+    },
+    "430964917.jpg#3r1c": {
+        "hyp": 2,
+        "z0 skate": 2,
+        "z1 hipster": 2,
+        "z2 down": 3,
+        "z3 street": 0,
+        "z0 skate :arg0 z1 hipster": 2,
+        "z0 skate :arg1 z2 down": 2,
+        "z2 down :op z3 street": 0
+    },
+    "2747436384.jpg#3r1e": {
+        "hyp": 2,
+        "z0 stand": 2,
+        "z1 group": 0,
+        "z2 person": 0,
+        "z3 together": 3,
+        "z0 stand :arg1 z1 group": 2,
+        "z2 person :consist z1 group": 0,
+        "z0 stand :mod z3 together": 2
+    },
+    "1580159719.jpg#1r1c": {
+        "hyp": 2,
+        "z0 listen": 0,
+        "z1 group": 0,
+        "z2 person": 0,
+        "z3 old": 3,
+        "z4 music": 0,
+        "z0 listen :arg0 z1 group": 0,
+        "z2 person :consist z1 group": 0,
+        "z2 person :mod z3 old": 2,
+        "z0 listen :arg1 z4 music": 0
+    },
+    "3121219649.jpg#0r1e": {
+        "hyp": 0,
+        "z0 stand": 0,
+        "z1 group": 0,
+        "z2 man": 0,
+        "z3 outside": 0,
+        "z0 stand :arg1 z1 group": 0,
+        "z2 man :consist z1 group": 0,
+        "z0 stand :arg2 z3 outside": 0
+    },
+    "3390808408.jpg#2r1c": {
+        "hyp": 2,
+        "z0 play": 0,
+        "z1 group": 0,
+        "z2 man": 0,
+        "z3 baseball": 2,
+        "z0 play :arg0 z1 group": 0,
+        "z2 man :consist z1 group": 0,
+        "z0 play :arg1 z3 baseball": 2
+    },
+    "4016499639.jpg#1r1e": {
+        "hyp": 1,
+        "z0 purchase": 1,
+        "z1 girl": 0,
+        "z0 purchase :arg0 z1 girl": 1
+    },
+    "2671602981.jpg#3r1n": {
+        "hyp": 1,
+        "z0 jump": 0,
+        "z1 girl": 0,
+        "z2 pool": 0,
+        "z0 jump :arg0 z1 girl": 0,
+        "z0 jump :destination z2 pool": 1
+    },
+    "2841909138.jpg#1r1c": {
+        "hyp": 2,
+        "z0 girl": 0,
+        "z1 inside": 2,
+        "z2 watch": 0,
+        "z3 television": 2,
+        "z0 girl :location z1 inside": 2,
+        "z2 watch :arg0 z0 girl": 0,
+        "z2 watch :arg1 z3 television": 2
+    },
+    "2790909995.jpg#2r1e": {
+        "hyp": 0,
+        "z0 play": 0,
+        "z1 dog": 0,
+        "z2 outside": 0,
+        "z0 play :arg0 z1 dog": 0,
+        "z0 play :location z2 outside": 0
+    },
+    "2125626631.jpg#1r1n": {
+        "hyp": 1,
+        "z0 play": 0,
+        "z1 dog": 0,
+        "z2 person": 1,
+        "z3 own": 1,
+        "z0 play :arg0 z1 dog": 0,
+        "z0 play :arg1 z2 person": 1,
+        "z3 own :arg0 z2 person": 1,
+        "z3 own :arg1 z1 dog": 1
+    },
+    "3738685861.jpg#1r1n": {
+        "hyp": 1,
+        "z0 clean": 1,
+        "z1 child": 0,
+        "z2 ornament": 0,
+        "z3 yard": 0,
+        "z0 clean :arg0 z1 child": 1,
+        "z0 clean :arg1 z2 ornament": 1,
+        "z2 ornament :mod z3 yard": 0
+    },
+    "1112334131.jpg#3r1e": {
+        "hyp": 0,
+        "z0 eat": 0,
+        "z1 child": 0,
+        "z2 ice-cream": 0,
+        "z0 eat :arg0 z1 child": 0,
+        "z0 eat :arg1 z2 ice-cream": 0
+    },
+    "460326010.jpg#1r1e": {
+        "hyp": 0,
+        "z0 chase": 0,
+        "z1 child": 0,
+        "z2 animal": 0,
+        "z3 small": 3,
+        "z0 chase :arg0 z1 child": 0,
+        "z0 chase :arg1 z2 animal": 0,
+        "z2 animal :mod z3 small": 0
+    },
+    "1288909046.jpg#4r3c": {
+        "hyp": 2,
+        "z0 swim": 2,
+        "z1 cat": 2,
+        "z0 swim :arg0 z1 cat": 2
+    },
+    "7940321892.jpg#1r1e": {
+        "hyp": 0,
+        "z0 move": 0,
+        "z1 car": 0,
+        "z2 quick": 0,
+        "z0 move :arg1 z1 car": 0,
+        "z2 quick :arg1 z0 move": 0
+    },
+    "1117972841.jpg#3r1c": {
+        "hyp": 2,
+        "z0 be-located-at": 3,
+        "z1 dog": 0,
+        "z2 brown": 3,
+        "z3 circus": 2,
+        "z0 be-located-at :arg1 z1 dog": 3,
+        "z1 dog :mod z2 brown": 0,
+        "z0 be-located-at :arg2 z3 circus": 2
+    },
+    "6839984356.jpg#4r1e": {
+        "hyp": 0,
+        "z0 rest": 0,
+        "z1 boy": 0,
+        "z2 have": 3,
+        "z3 skateboard": 0,
+        "z0 rest :arg0 z1 boy": 0,
+        "z2 have :arg0 z1 boy": 3,
+        "z2 have :arg1 z3 skateboard": 0
+    },
+    "1408958345.jpg#4r1c": {
+        "hyp": 2,
+        "z0 rollerblade": 2,
+        "z1 boy": 2,
+        "z2 park": 0,
+        "z3 skate": 3,
+        "z0 rollerblade :arg0 z1 boy": 2,
+        "z0 rollerblade :location z2 park": 2,
+        "z2 park :mod z3 skate": 2
+    },
+    "582788646.jpg#3r3c": {
+        "hyp": 2,
+        "z0 sleep": 2,
+        "z1 boy": 0,
+        "z0 sleep :arg0 z1 boy": 2
+    },
+    "637245791.jpg#1r2e": {
+        "hyp": 0,
+        "z0 sit-down": 0,
+        "z1 boy": 0,
+        "z2 look": 0,
+        "z3 toy": 0,
+        "z0 sit-down :arg1 z1 boy": 0,
+        "z2 look :arg0 z1 boy": 0,
+        "z2 look :arg1 z3 toy": 0
+    },
+    "2954929479.jpg#2r1c": {
+        "hyp": 2,
+        "z0 hold": 0,
+        "z1 boy": 0,
+        "z2 watermelon": 2,
+        "z0 hold :arg0 z1 boy": 0,
+        "z0 hold :arg1 z2 watermelon": 2
+    },
+    "1546632452.jpg#2r3n": {
+        "hyp": 2,
+        "z0 jump": 0,
+        "z1 boy": 0,
+        "z2 blonde": 3,
+        "z0 jump :arg0 z1 boy": 0,
+        "z1 boy :mod z2 blonde": 2
+    },
+    "3422458549.jpg#0r1e": {
+        "hyp": 0,
+        "z0 play": 0,
+        "z1 woman": 0,
+        "z2 black": 3,
+        "z3 wear": 0,
+        "z4 orange": 3,
+        "z5 tennis": 0,
+        "z0 play :arg0 z1 woman": 0,
+        "z2 black :arg1 z1 woman": 0,
+        "z3 wear :arg0 z1 woman": 0,
+        "z3 wear :arg1 z4 orange": 0,
+        "z0 play :arg1 z5 tennis": 0
+    },
+    "3584603849.jpg#3r1c": {
+        "hyp": 2,
+        "z0 loop": 0,
+        "z1 bird": 2,
+        "z2 air": 0,
+        "z0 loop :arg0 z1 bird": 2,
+        "z0 loop :arg1 z2 air": 0
+    },
+    "2949337912.jpg#3r1n": {
+        "hyp": 2,
+        "z0 surf": 0,
+        "z1 person": 0,
+        "z2 wave": 0,
+        "z3 big": 3,
+        "z4 distance-quantity": 3,
+        "z5 foot": 3,
+        "z0 surf :arg0 z1 person": 0,
+        "z0 surf :arg1 z2 wave": 0,
+        "z2 wave :mod z3 big": 0,
+        "z2 wave :mod z4 distance-quantity": 3,
+        "z4 distance-quantity :quant 100": 2,
+        "z4 distance-quantity :unit z5 foot": 3
+    },
+    "4491044489.jpg#4r1n": {
+        "hyp": 1,
+        "z0 be-located-at": 3,
+        "z1 man": 0,
+        "z2 boat": 0,
+        "z3 ocean": 1,
+        "z0 be-located-at :arg1 z1 man": 3,
+        "z1 man :quant 2": 0,
+        "z0 be-located-at :arg2 z2 boat": 3,
+        "z0 be-located-at :location z3 ocean": 1
+    },
+    "553918837.jpg#2r1c": {
+        "hyp": 2,
+        "z0 sleep": 2,
+        "z1 girl": 1,
+        "z0 sleep :arg0 z1 girl": 2
+    },
+    "123101580.jpg#1r5c": {
+        "hyp": 2,
+        "z0 hold": 2,
+        "z1 girl": 0,
+        "z2 stick": 2,
+        "z3 hockey": 3,
+        "z0 hold :arg0 z1 girl": 2,
+        "z1 girl :quant 2": 0,
+        "z0 hold :arg1 z2 stick": 2,
+        "z2 stick :mod z3 hockey": 2
+    },
+    "4690278994.jpg#1r1n": {
+        "hyp": 1,
+        "z0 jog": 0,
+        "z1 man": 0,
+        "z2 sun": 0,
+        "z3 hot": 3,
+        "z0 jog :arg0 z1 man": 0,
+        "z0 jog :location z2 sun": 0,
+        "z3 hot :arg1 z2 sun": 1
+    },
+    "1542970158.jpg#0r1n": {
+        "hyp": 1,
+        "z0 work": 1,
+        "z1 man": 0,
+        "z0 work :arg0 z1 man": 1
+    },
+    "4333374998.jpg#2r1n": {
+        "hyp": 1,
+        "z0 look": 0,
+        "z1 child": 0,
+        "z2 young": 3,
+        "z3 blonde": 0,
+        "z4 someone": 1,
+        "z5 out-of": 3,
+        "z6 door": 0,
+        "z7 glass": 0,
+        "z0 look :arg0 z1 child": 0,
+        "z1 child :mod z2 young": 0,
+        "z1 child :mod z3 blonde": 0,
+        "z0 look :arg1 z4 someone": 1,
+        "z0 look :direction z5 out-of": 0,
+        "z5 out-of :op z6 door": 0,
+        "z7 glass :consist z6 door": 0
+    },
+    "6589292543.jpg#3r1c": {
+        "hyp": 2,
+        "z0 bathe": 2,
+        "z1 boy": 0,
+        "z2 young": 3,
+        "z0 bathe :arg0 z1 boy": 2,
+        "z1 boy :mod z2 young": 0
+    },
+    "444051472.jpg#4r1e": {
+        "hyp": 1,
+        "z0 feed": 1,
+        "z1 person": 0,
+        "z2 duck": 0,
+        "z3 read": 0,
+        "z4 park": 0,
+        "z0 feed :arg0 z1 person": 1,
+        "z0 feed :arg1 z2 duck": 1,
+        "z0 feed :time z3 read": 1,
+        "z3 read :arg0 z1 person": 0,
+        "z0 feed :location z4 park": 1
+    },
+    "5199439325.jpg#0r1c": {
+        "hyp": 2,
+        "z0 and": 3,
+        "z1 sit-down": 2,
+        "z2 person": 0,
+        "z3 study": 1,
+        "z4 write": 2,
+        "z5 essay": 2,
+        "z0 and :op z1 sit-down": 3,
+        "z1 sit-down :arg1 z2 person": 2,
+        "z3 study :arg0 z2 person": 1,
+        "z0 and :op z4 write": 3,
+        "z4 write :arg0 z2 person": 2,
+        "z4 write :arg1 z5 essay": 2
+    },
+    "4801764348.jpg#1r1c": {
+        "hyp": 2,
+        "z0 walk": 2,
+        "z1 crowd": 0,
+        "z2 mall": 1,
+        "z0 walk :arg0 z1 crowd": 2,
+        "z0 walk :arg2 z2 mall": 2
+    },
+    "6847401646.jpg#1r1n": {
+        "hyp": 1,
+        "z0 pose": 0,
+        "z1 man": 0,
+        "z2 compete": 1,
+        "z3 bodybuilding": 1,
+        "z0 pose :arg0 z1 man": 0,
+        "z0 pose :location z2 compete": 1,
+        "z2 compete :arg3 z3 bodybuilding": 1
+    },
+    "2584487952.jpg#0r1n": {
+        "hyp": 1,
+        "z0 jump": 1,
+        "z1 dog": 0,
+        "z2 frisbee": 1,
+        "z0 jump :arg0 z1 dog": 1,
+        "z0 jump :purpose z2 frisbee": 1
+    },
+    "2641098920.jpg#0r5n": {
+        "hyp": 1,
+        "z0 have-rel-role": 3,
+        "z1 they": 0,
+        "z2 sister": 1,
+        "z0 have-rel-role :arg0 z1 they": 3,
+        "z0 have-rel-role :arg2 z2 sister": 1
+    },
+    "4316585644.jpg#3r1c": {
+        "hyp": 2,
+        "z0 baggy": 2,
+        "z1 pants": 0,
+        "z2 woman": 0,
+        "z3 very": 3,
+        "z0 baggy :domain z1 pants": 2,
+        "z1 pants :poss z2 woman": 0,
+        "z0 baggy :degree z3 very": 2
+    },
+    "4801849846.jpg#0r1e": {
+        "hyp": 1,
+        "z0 walk": 0,
+        "z1 person": 0,
+        "z2 in-front-of": 3,
+        "z3 store": 1,
+        "z0 walk :arg0 z1 person": 0,
+        "z0 walk :location z2 in-front-of": 0,
+        "z2 in-front-of :op z3 store": 1
+    },
+    "3667781063.jpg#2r1e": {
+        "hyp": 0,
+        "z0 be-located-at": 3,
+        "z1 person": 0,
+        "z2 boat": 0,
+        "z0 be-located-at :arg1 z1 person": 0,
+        "z0 be-located-at :arg2 z2 boat": 0
+    },
+    "1313961775.jpg#1r4n": {
+        "hyp": 2,
+        "z0 float": 0,
+        "z1 girl": 0,
+        "z2 lake": 0,
+        "z3 boat": 2,
+        "z0 float :arg1 z1 girl": 0,
+        "z0 float :arg2 z2 lake": 0,
+        "z0 float :instrument z3 boat": 2
+    },
+    "4401136784.jpg#4r1n": {
+        "hyp": 2,
+        "z0 be-located-at": 3,
+        "z1 person": 0,
+        "z2 lot": 3,
+        "z3 party": 0,
+        "z4 birthday": 2,
+        "z0 be-located-at :arg1 z1 person": 3,
+        "z1 person :quant z2 lot": 0,
+        "z0 be-located-at :arg2 z3 party": 0,
+        "z3 party :mod z4 birthday": 2
+    },
+    "5662260935.jpg#1r1n": {
+        "hyp": 1,
+        "z0 train": 0,
+        "z1 man": 0,
+        "z2 event": 1,
+        "z0 train :arg0 z1 man": 0,
+        "z0 train :arg2 z2 event": 1
+    },
+    "4970590451.jpg#0r1c": {
+        "hyp": 2,
+        "z0 drive": 0,
+        "z1 motorcycle": 0,
+        "z0 drive :arg0 z1 motorcycle": 2,
+        "z0 drive :arg1 z1 motorcycle": 0
+    },
+    "1625306051.jpg#0r1n": {
+        "hyp": 1,
+        "z0 jump": 0,
+        "z1 man": 0,
+        "z2 joy": 1,
+        "z0 jump :arg0 z1 man": 0,
+        "z1 man :quant 2": 0,
+        "z0 jump :purpose z2 joy": 1
+    },
+    "6869365418.jpg#0r1e": {
+        "hyp": 1,
+        "z0 play": 0,
+        "z1 child": 0,
+        "z2 park": 1,
+        "z3 outside": 0,
+        "z0 play :arg0 z1 child": 0,
+        "z0 play :location z2 park": 1,
+        "z2 park :location z3 outside": 0
+    },
+    "2174648405.jpg#4r1n": {
+        "hyp": 1,
+        "z0 work": 0,
+        "z1 woman": 0,
+        "z2 factory": 0,
+        "z3 big": 3,
+        "z0 work :arg0 z1 woman": 0,
+        "z1 woman :quant 2": 0,
+        "z0 work :arg2 z2 factory": 0,
+        "z2 factory :mod z3 big": 1
+    },
+    "4632869465.jpg#2r1n": {
+        "hyp": 1,
+        "z0 birthday": 1,
+        "z1 girl": 0,
+        "z2 young": 0,
+        "z3 it": 3,
+        "z0 birthday :poss z1 girl": 1,
+        "z1 girl :mod z2 young": 0,
+        "z0 birthday :domain z3 it": 3
+    },
+    "1733853950.jpg#0r1n": {
+        "hyp": 1,
+        "z0 do": 0,
+        "z1 man": 0,
+        "z2 deal": 1,
+        "z3 business": 1,
+        "z0 do :arg0 z1 man": 0,
+        "z0 do :arg1 z2 deal": 1,
+        "z2 deal :arg0 z1 man": 1,
+        "z2 deal :arg2 z3 business": 1
+    },
+    "3676788491.jpg#4r1c": {
+        "hyp": 2,
+        "z0 run": 2,
+        "z1 woman": 2,
+        "z2 in-front-of": 3,
+        "z3 building": 0,
+        "z4 yellow": 0,
+        "z0 run :arg0 z1 woman": 2,
+        "z0 run :location z2 in-front-of": 2,
+        "z2 in-front-of :op z3 building": 0,
+        "z4 yellow :arg1 z3 building": 0
+    },
+    "5526795355.jpg#2r1c": {
+        "hyp": 2,
+        "z0 play": 0,
+        "z1 woman": 2,
+        "z2 violin": 0,
+        "z0 play :arg0 z1 woman": 2,
+        "z0 play :arg2 z2 violin": 0
+    },
+    "3553056438.jpg#3r1c": {
+        "hyp": 2,
+        "z0 sleep": 2,
+        "z1 child": 0,
+        "z0 sleep :arg0 z1 child": 2,
+        "z1 child :quant 2": 0
+    },
+    "2471447879.jpg#0r1n": {
+        "hyp": 1,
+        "z0 practice": 0,
+        "z1 girl": 0,
+        "z2 climb": 0,
+        "z3 mountain": 1,
+        "z0 practice :arg0 z1 girl": 0,
+        "z0 practice :arg1 z2 climb": 0,
+        "z2 climb :arg0 z1 girl": 0,
+        "z2 climb :arg1 z3 mountain": 1
+    },
+    "2607097757.jpg#4r1c": {
+        "hyp": 2,
+        "z0 nap": 2,
+        "z1 person": 0,
+        "z2 work": 0,
+        "z0 nap :arg0 z1 person": 2,
+        "z2 work :arg0 z1 person": 0
+    },
+    "241109594.jpg#1r1n": {
+        "hyp": 1,
+        "z0 play": 0,
+        "z1 dog": 0,
+        "z2 fetch": 1,
+        "z0 play :arg0 z1 dog": 0,
+        "z0 play :arg1 z2 fetch": 1
+    },
+    "503357436.jpg#0r1n": {
+        "hyp": 1,
+        "z0 have-rel-role": 3,
+        "z1 person": 0,
+        "z2 person": 0,
+        "z3 friend": 1,
+        "z0 have-rel-role :arg0 z1 person": 3,
+        "z1 person :quant 2": 0,
+        "z0 have-rel-role :arg1 z2 person": 3,
+        "z0 have-rel-role :arg2 z3 friend": 1
+    },
+    "137444523.jpg#1r1n": {
+        "hyp": 1,
+        "z0 wait": 0,
+        "z1 person": 0,
+        "z2 some": 3,
+        "z3 bus": 1,
+        "z0 wait :arg1 z1 person": 0,
+        "z1 person :mod z2 some": 0,
+        "z0 wait :arg2 z3 bus": 1
+    },
+    "2993049054.jpg#4r1n": {
+        "hyp": 1,
+        "z0 person": 0,
+        "z1 act": 1,
+        "z2 movie": 1,
+        "z3 person": 0,
+        "z4 mask": 0,
+        "z1 act :arg0 z0 person": 1,
+        "z1 act :location z2 movie": 1,
+        "z0 person :domain z3 person": 0,
+        "z4 mask :arg0 z3 person": 0
+    },
+    "3050606344.jpg#0r1c": {
+        "hyp": 2,
+        "z0 kayak": 0,
+        "z1 man": 0,
+        "z2 river": 0,
+        "z3 calm": 2,
+        "z0 kayak :arg0 z1 man": 0,
+        "z0 kayak :arg1 z2 river": 0,
+        "z3 calm :arg1 z2 river": 2
+    },
+    "4893369019.jpg#3r1c": {
+        "hyp": 2,
+        "z0 sleep": 2,
+        "z1 crowd": 0,
+        "z2 person": 0,
+        "z3 auditorium": 2,
+        "z0 sleep :arg0 z1 crowd": 2,
+        "z2 person :consist z1 crowd": 0,
+        "z0 sleep :location z3 auditorium": 2
+    },
+    "2589156742.jpg#3r1n": {
+        "hyp": 1,
+        "z0 drink": 0,
+        "z1 man": 0,
+        "z2 coffee": 1,
+        "z3 cup": 0,
+        "z0 drink :arg0 z1 man": 0,
+        "z0 drink :arg1 z2 coffee": 1,
+        "z0 drink :source z3 cup": 0
+    },
+    "3761067976.jpg#3r1n": {
+        "hyp": 2,
+        "z0 hold": 0,
+        "z1 girl": 0,
+        "z2 daisy": 1,
+        "z3 white": 3,
+        "z0 hold :arg0 z1 girl": 0,
+        "z0 hold :arg1 z2 daisy": 1,
+        "z3 white :arg1 z2 daisy": 2
+    },
+    "479545053.jpg#3r1n": {
+        "hyp": 2,
+        "z0 man": 0,
+        "z1 read": 0,
+        "z2 book": 0,
+        "z3 name": 3,
+        "z1 read :arg0 z0 man": 0,
+        "z1 read :arg1 z2 book": 0,
+        "z2 book :name z3 name": 3,
+        "z3 name :op \"hamlet\"": 1
+    },
+    "2741990005.jpg#4r1c": {
+        "hyp": 2,
+        "z0 sit": 2,
+        "z1 man": 0,
+        "z2 don": 3,
+        "z0 sit :arg1 z1 man": 2,
+        "z0 sit :arg2 z2 don": 2
+    },
+    "3246724744.jpg#1r1n": {
+        "hyp": 1,
+        "z0 gymnastics": 1,
+        "z1 girl": 0,
+        "z2 beach": 0,
+        "z0 gymnastics :arg0 z1 girl": 1,
+        "z0 gymnastics :location z2 beach": 1
+    },
+    "4555935886.jpg#3r1n": {
+        "hyp": 1,
+        "z0 clothes": 0,
+        "z1 she": 0,
+        "z2 this": 3,
+        "z0 clothes :poss z1 she": 1,
+        "z0 clothes :domain z2 this": 0
+    },
+    "101669240.jpg#3r1c": {
+        "hyp": 2,
+        "z0 look": 0,
+        "z1 person": 0,
+        "z2 ski": 0,
+        "z3 tree": 2,
+        "z4 on-fire": 2,
+        "z0 look :arg0 z1 person": 0,
+        "z2 ski :arg0 z1 person": 0,
+        "z0 look :arg1 z3 tree": 2,
+        "z4 on-fire :arg1 z3 tree": 2
+    },
+    "4925573161.jpg#1r5c": {
+        "hyp": 2,
+        "z0 sleep": 2,
+        "z1 person": 0,
+        "z2 bike": 0,
+        "z0 sleep :arg0 z1 person": 2,
+        "z2 bike :arg0 z1 person": 0
+    },
+    "4050916276.jpg#4r5n": {
+        "hyp": 1,
+        "z0 have-org-role": 0,
+        "z1 boy": 0,
+        "z2 pool": 0,
+        "z3 cleaner": 1,
+        "z0 have-org-role :arg0 z1 boy": 0,
+        "z0 have-org-role :arg1 z2 pool": 0,
+        "z0 have-org-role :arg2 z3 cleaner": 1
+    },
+    "484280924.jpg#4r1c": {
+        "hyp": 2,
+        "z0 make": 0,
+        "z1 man": 0,
+        "z2 food": 0,
+        "z3 angry": 2,
+        "z0 make :arg0 z1 man": 0,
+        "z0 make :arg1 z2 food": 0,
+        "z0 make :manner z3 angry": 2
+    },
+    "2222732183.jpg#1r1e": {
+        "hyp": 1,
+        "z0 read": 0,
+        "z1 she": 0,
+        "z2 story": 1,
+        "z3 he": 0,
+        "z0 read :arg0 z1 she": 0,
+        "z0 read :arg1 z2 story": 1,
+        "z0 read :arg2 z3 he": 0
+    },
+    "345852737.jpg#2r1c": {
+        "hyp": 2,
+        "z0 man": 2,
+        "z1 driveway": 2,
+        "z2 wash": 2,
+        "z3 car": 0,
+        "z0 man :location z1 driveway": 2,
+        "z2 wash :arg0 z0 man": 2,
+        "z2 wash :arg1 z3 car": 2,
+        "z3 car :poss z0 man": 2
+    },
+    "4803984649.jpg#4r1n": {
+        "hyp": 2,
+        "z0 guy": 0,
+        "z1 doctor": 2,
+        "z0 guy :location z1 doctor": 2
+    },
+    "4400746838.jpg#1r1c": {
+        "hyp": 2,
+        "z0 wear": 0,
+        "z1 girl": 0,
+        "z2 blonde": 0,
+        "z3 dress": 0,
+        "z4 blue": 3,
+        "z0 wear :arg0 z1 girl": 0,
+        "z1 girl :mod z2 blonde": 0,
+        "z0 wear :arg1 z3 dress": 0,
+        "z3 dress :mod z4 blue": 2
+    },
+    "5623287052.jpg#4r1c": {
+        "hyp": 2,
+        "z0 sleep": 2,
+        "z1 man": 0,
+        "z0 sleep :arg0 z1 man": 2
+    },
+    "97138973.jpg#2r1c": {
+        "hyp": 2,
+        "z0 swim": 2,
+        "z1 man": 0,
+        "z2 pool": 2,
+        "z0 swim :arg0 z1 man": 2,
+        "z0 swim :arg1 z2 pool": 2
+    },
+    "2507182524.jpg#2r1n": {
+        "hyp": 1,
+        "z0 chase": 0,
+        "z1 dog": 0,
+        "z2 ball": 0,
+        "z3 tennis": 3,
+        "z0 chase :arg0 z1 dog": 0,
+        "z0 chase :arg1 z2 ball": 0,
+        "z2 ball :mod z3 tennis": 1
+    },
+    "8138745455.jpg#4r1c": {
+        "hyp": 2,
+        "z0 play": 0,
+        "z1 man": 0,
+        "z2 old": 3,
+        "z3 check-check": 2,
+        "z0 play :arg0 z1 man": 0,
+        "z1 man :quant 3": 0,
+        "z1 man :mod z2 old": 0,
+        "z0 play :arg1 z3 check-check": 2
+    },
+    "2923086298.jpg#2r1c": {
+        "hyp": 2,
+        "z0 cook": 2,
+        "z1 woman": 0,
+        "z2 dinner": 2,
+        "z0 cook :arg0 z1 woman": 2,
+        "z0 cook :arg1 z2 dinner": 2
+    },
+    "104285082.jpg#1r4n": {
+        "hyp": 1,
+        "z0 play": 0,
+        "z1 man": 0,
+        "z2 elderly": 3,
+        "z3 music": 0,
+        "z4 original": 3,
+        "z0 play :arg0 z1 man": 0,
+        "z1 man :mod z2 elderly": 0,
+        "z0 play :arg1 z3 music": 0,
+        "z3 music :mod z4 original": 1,
+        "z3 music :poss z1 man": 1
+    },
+    "3367399.jpg#1r1c": {
+        "hyp": 2,
+        "z0 sleep": 2,
+        "z1 man": 0,
+        "z0 sleep :arg0 z1 man": 2
+    },
+    "2437392162.jpg#1r1c": {
+        "hyp": 2,
+        "z0 playground": 0,
+        "z1 empty": 2,
+        "z1 empty :arg1 z0 playground": 2
+    },
+    "2255266906.jpg#1r1n": {
+        "hyp": 2,
+        "z0 be-located-at": 3,
+        "z1 bird": 0,
+        "z2 black": 3,
+        "z3 nest": 2,
+        "z0 be-located-at :arg1 z1 bird": 0,
+        "z2 black :arg1 z1 bird": 0,
+        "z0 be-located-at :arg2 z3 nest": 2
+    },
+    "4222067827.jpg#2r1e": {
+        "hyp": 1,
+        "z0 dress": 0,
+        "z1 child": 0,
+        "z2 character": 0,
+        "z3 television": 1,
+        "z0 dress :arg1 z1 child": 0,
+        "z0 dress :arg2 z2 character": 0,
+        "z2 character :source z3 television": 1
+    },
+    "3085590738.jpg#0r1n": {
+        "hyp": 1,
+        "z0 present": 1,
+        "z1 woman": 0,
+        "z0 present :arg0 z1 woman": 1
+    },
+    "3543294190.jpg#4r1e": {
+        "hyp": 0,
+        "z0 man": 0,
+        "z1 have": 0,
+        "z2 bike": 0,
+        "z1 have :arg0 z0 man": 0,
+        "z1 have :arg1 z2 bike": 0
+    },
+    "1313961775.jpg#2r5e": {
+        "hyp": 0,
+        "z0 float": 0,
+        "z1 girl": 0,
+        "z2 little": 0,
+        "z3 water": 0,
+        "z0 float :arg1 z1 girl": 0,
+        "z1 girl :mod z2 little": 0,
+        "z0 float :arg2 z3 water": 0
+    },
+    "2991994607.jpg#4r1e": {
+        "hyp": 0,
+        "z0 wear": 0,
+        "z1 person": 0,
+        "z2 costume": 0,
+        "z0 wear :arg0 z1 person": 0,
+        "z0 wear :arg1 z2 costume": 0
+    },
+    "3727740053.jpg#3r1e": {
+        "hyp": 0,
+        "z0 fight": 0,
+        "z1 man": 0,
+        "z0 fight :arg0 z1 man": 0,
+        "z1 man :quant 2": 0
+    },
+    "2441313372.jpg#3r1e": {
+        "hyp": 1,
+        "z0 rest": 0,
+        "z1 boy": 0,
+        "z2 young": 0,
+        "z3 hospital": 1,
+        "z0 rest :arg1 z1 boy": 0,
+        "z1 boy :mod z2 young": 0,
+        "z0 rest :location z3 hospital": 1
+    },
+    "23016347.jpg#0r1c": {
+        "hyp": 2,
+        "z0 sleep": 2,
+        "z1 girl": 0,
+        "z2 court": 0,
+        "z3 tennis": 0,
+        "z0 sleep :arg0 z1 girl": 2,
+        "z0 sleep :location z2 court": 2,
+        "z2 court :mod z3 tennis": 0
+    },
+    "3217187564.jpg#0r1c": {
+        "hyp": 2,
+        "z0 race": 0,
+        "z1 turtle": 2,
+        "z0 race :arg0 z1 turtle": 2
+    },
+    "4567003374.jpg#3r1e": {
+        "hyp": 0,
+        "z0 play": 0,
+        "z1 man": 0,
+        "z2 instrument": 0,
+        "z3 music": 0,
+        "z0 play :arg0 z1 man": 0,
+        "z0 play :arg2 z2 instrument": 0,
+        "z2 instrument :mod z3 music": 0
+    },
+    "101669240.jpg#4r1c": {
+        "hyp": 2,
+        "z0 dog": 2,
+        "z1 ski": 0,
+        "z1 ski :arg0 z0 dog": 2
+    },
+    "4917931600.jpg#2r1c": {
+        "hyp": 2,
+        "z0 wash": 2,
+        "z1 man": 0,
+        "z2 hand": 0,
+        "z0 wash :arg0 z1 man": 2,
+        "z0 wash :arg1 z2 hand": 2,
+        "z1 man :part z2 hand": 0
+    },
+    "2540884723.jpg#3r1n": {
+        "hyp": 1,
+        "z0 wait": 1,
+        "z1 person": 0,
+        "z2 taxi": 1,
+        "z0 wait :arg1 z1 person": 1,
+        "z0 wait :arg2 z2 taxi": 1
+    },
+    "3272847211.jpg#3r1c": {
+        "hyp": 2,
+        "z0 swim": 2,
+        "z1 they": 0,
+        "z2 lake": 2,
+        "z0 swim :arg0 z1 they": 2,
+        "z0 swim :arg1 z2 lake": 2
+    },
+    "3809063851.jpg#0r1n": {
+        "hyp": 2,
+        "z0 sing": 2,
+        "z1 musician": 0,
+        "z0 sing :arg0 z1 musician": 2
+    },
+    "2597958208.jpg#3r1c": {
+        "hyp": 2,
+        "z0 be-located-at": 0,
+        "z1 child": 0,
+        "z2 bedroom": 2,
+        "z0 be-located-at :arg1 z1 child": 0,
+        "z0 be-located-at :arg2 z2 bedroom": 2
+    },
+    "4523218758.jpg#1r1e": {
+        "hyp": 0,
+        "z0 walk": 0,
+        "z1 woman": 0,
+        "z2 group": 0,
+        "z0 walk :arg0 z1 woman": 0,
+        "z1 woman :quant z2 group": 0
+    },
+    "1505686764.jpg#0r1c": {
+        "hyp": 2,
+        "z0 sleep": 2,
+        "z1 man": 0,
+        "z0 sleep :arg0 z1 man": 2
+    },
+    "253800791.jpg#4r1e": {
+        "hyp": 0,
+        "z0 play": 0,
+        "z1 person": 0,
+        "z2 outside": 0,
+        "z0 play :arg0 z1 person": 0,
+        "z0 play :location z2 outside": 0
+    },
+    "4439654945.jpg#0r4c": {
+        "hyp": 2,
+        "z0 blindfold": 2,
+        "z1 kid": 0,
+        "z2 young": 0,
+        "z0 blindfold :arg1 z1 kid": 2,
+        "z1 kid :mod z2 young": 0
+    },
+    "1196886054.jpg#2r1n": {
+        "hyp": 1,
+        "z0 renew": 1,
+        "z1 they": 0,
+        "z2 vow": 1,
+        "z0 renew :arg0 z1 they": 1,
+        "z0 renew :arg1 z2 vow": 1,
+        "z2 vow :arg0 z1 they": 1
+    },
+    "3772446893.jpg#1r1c": {
+        "hyp": 2,
+        "z0 woman": 0,
+        "z1 inside": 2,
+        "z2 cook": 2,
+        "z3 dinner": 2,
+        "z0 woman :location z1 inside": 2,
+        "z2 cook :arg0 z0 woman": 2,
+        "z2 cook :arg1 z3 dinner": 2
+    },
+    "3121219649.jpg#4r1c": {
+        "hyp": 2,
+        "z0 play": 2,
+        "z1 man": 0,
+        "z2 some": 0,
+        "z3 pool": 2,
+        "z4 bar": 2,
+        "z0 play :arg0 z1 man": 2,
+        "z1 man :quant z2 some": 0,
+        "z0 play :arg1 z3 pool": 2,
+        "z0 play :location z4 bar": 2
+    },
+    "2903617548.jpg#2r1c": {
+        "hyp": 2,
+        "z0 shower": 2,
+        "z1 child": 0,
+        "z0 shower :arg0 z1 child": 2
+    },
+    "280840823.jpg#1r1c": {
+        "hyp": 2,
+        "z0 eat": 2,
+        "z1 man": 0,
+        "z2 dinner": 2,
+        "z3 together": 0,
+        "z0 eat :arg0 z1 man": 2,
+        "z1 man :quant 3": 0,
+        "z0 eat :arg1 z2 dinner": 2,
+        "z0 eat :manner z3 together": 2
+    },
+    "4494075018.jpg#1r1n": {
+        "hyp": 1,
+        "z0 party": 1,
+        "z1 person": 0,
+        "z2 boat": 0,
+        "z0 party :arg0 z1 person": 1,
+        "z2 boat :arg0 z1 person": 0
+    },
+    "3036894037.jpg#2r1c": {
+        "hyp": 2,
+        "z0 sleep": 2,
+        "z1 cop": 0,
+        "z2 street": 0,
+        "z0 sleep :arg0 z1 cop": 2,
+        "z1 cop :quant 2": 0,
+        "z0 sleep :location z2 street": 2
+    },
+    "4410033566.jpg#2r1c": {
+        "hyp": 2,
+        "z0 watch": 0,
+        "z1 woman": 2,
+        "z2 television": 2,
+        "z0 watch :arg0 z1 woman": 2,
+        "z0 watch :arg1 z2 television": 1
+    },
+    "3072074170.jpg#4r1n": {
+        "hyp": 1,
+        "z0 happy": 1,
+        "z1 man": 0,
+        "z2 grass": 0,
+        "z0 happy :arg1 z1 man": 1,
+        "z0 happy :location z2 grass": 1
+    },
+    "311619377.jpg#1r1c": {
+        "hyp": 2,
+        "z0 eat": 2,
+        "z1 woman": 0,
+        "z2 dinner": 2,
+        "z0 eat :arg0 z1 woman": 2,
+        "z0 eat :arg1 z2 dinner": 2
+    },
+    "2728607980.jpg#4r5n": {
+        "hyp": 1,
+        "z0 watch": 0,
+        "z1 person": 0,
+        "z2 concert": 1,
+        "z0 watch :arg0 z1 person": 0,
+        "z0 watch :arg1 z2 concert": 1
+    },
+    "2324581814.jpg#1r1c": {
+        "hyp": 2,
+        "z0 blue": 2,
+        "z1 wall": 0,
+        "z0 blue :domain z1 wall": 2
+    },
+    "319870744.jpg#0r1e": {
+        "hyp": 0,
+        "z0 sit": 0,
+        "z1 someone": 0,
+        "z0 sit :arg1 z1 someone": 0
+    },
+    "3316725440.jpg#2r1e": {
+        "hyp": 1,
+        "z0 take": 0,
+        "z1 someone": 0,
+        "z2 bike": 0,
+        "z3 ride": 0,
+        "z0 take :arg0 z1 someone": 0,
+        "z0 take :arg1 z2 bike": 0,
+        "z2 bike :poss z1 someone": 1,
+        "z0 take :arg3 z3 ride": 0,
+        "z3 ride :arg0 z1 someone": 0
+    },
+    "5526795355.jpg#1r1e": {
+        "hyp": 0,
+        "z0 play": 0,
+        "z1 man": 0,
+        "z2 music": 0,
+        "z0 play :arg0 z1 man": 0,
+        "z0 play :arg1 z2 music": 0
+    },
+    "4491044489.jpg#4r1e": {
+        "hyp": 1,
+        "z0 man": 0,
+        "z1 ocean": 1,
+        "z0 man :quant 2": 0,
+        "z0 man :location z1 ocean": 1
+    },
+    "92679312.jpg#3r1n": {
+        "hyp": 1,
+        "z0 sing": 1,
+        "z1 and": 3,
+        "z2 person": 0,
+        "z3 have-rel-role": 0,
+        "z4 father": 1,
+        "z5 person": 0,
+        "z6 have-rel-role": 0,
+        "z7 son": 0,
+        "z8 duet": 1,
+        "z0 sing :arg0 z1 and": 1,
+        "z1 and :op z2 person": 0,
+        "z3 have-rel-role :arg0 z2 person": 0,
+        "z3 have-rel-role :arg2 z4 father": 1,
+        "z1 and :op z5 person": 0,
+        "z6 have-rel-role :arg0 z5 person": 0,
+        "z6 have-rel-role :arg2 z7 son": 1,
+        "z0 sing :arg1 z8 duet": 1
+    },
+    "6632464405.jpg#0r1n": {
+        "hyp": 1,
+        "z0 reunite": 0,
+        "z1 band": 0,
+        "z2 rock": 0,
+        "z3 age": 1,
+        "z4 perform": 0,
+        "z5 concert": 0,
+        "z6 last": 1,
+        "z0 reunite :arg1 z1 band": 0,
+        "z1 band :mod z2 rock": 0,
+        "z3 age :arg1 z1 band": 1,
+        "z0 reunite :purpose z4 perform": 0,
+        "z4 perform :arg0 z1 band": 0,
+        "z4 perform :mod z5 concert": 0,
+        "z4 perform :mod z6 last": 1
+    },
+    "498404951.jpg#3r1n": {
+        "hyp": 2,
+        "z0 play": 0,
+        "z1 dog": 0,
+        "z2 pool": 0,
+        "z3 family": 2,
+        "z0 play :arg0 z1 dog": 0,
+        "z0 play :location z2 pool": 0,
+        "z2 pool :poss z3 family": 2
+    },
+    "4480270643.jpg#0r1e": {
+        "hyp": 0,
+        "z0 stand": 0,
+        "z1 person": 0,
+        "z0 stand :arg1 z1 person": 0
+    },
+    "4828433053.jpg#0r4n": {
+        "hyp": 1,
+        "z1 person": 0,
+        "z2 dog": 0,
+        "z0 walk": 1,
+        "z0 walk :arg0 z1 person": 1,
+        "z0 walk :arg1 z2 dog": 1,
+        "z2 dog :poss z1 person": 1
+    }
+}
