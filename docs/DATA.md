@@ -4,9 +4,9 @@ Here are some explanations for the data files needed by our model.
 ## Text Files
 The following files contains the visual entailment text data splits from [e-ViL](https://openaccess.thecvf.com/content/ICCV2021/html/Kayser_E-ViL_A_Dataset_and_Benchmark_for_Natural_Language_Explanations_in_ICCV_2021_paper.html). We augment the dataset with raw AMR sequences for each hypothesis, each image's detected object tags (we only take object labels and not their attributes), and each image's object detection confidence scores. We also add the preprocessed AMR sequences to the files.
 
-- `ve\_train.json`
-- `ve\_test.json`
-- `ve\_dev.json`
+- `ve_train.json`
+- `ve_test.json`
+- `ve_dev.json`
 
 Each file is a list of dictionaries of format:
 
@@ -24,13 +24,13 @@ Each file is a list of dictionaries of format:
 ```
 
 ## AMR Files
-- `amr\_annotations.json`: Fine-grained KE annotations for our FGVE test set.
-- `amr\_substitute.json`: AMR role string substitute used for preprocessing to prevent BertToknizer breaking up AMR role tokens.
-- `amr\_vocab.txt`: New AMR tokens to be added to the tokenizer.
-- `amr\_special\_tokens.txt`: `[amr-unknown]` tokens in AMRs are treated as `[UNK]` for BertToknizer.
+- `amr_annotations.json`: Fine-grained KE annotations for our FGVE test set.
+- `amr_substitute.json`: AMR role string substitute used for preprocessing to prevent BertToknizer breaking up AMR role tokens.
+- `amr_vocab.txt`: New AMR tokens to be added to the tokenizer.
+- `amr_special_tokens.txt`: `[amr-unknown]` tokens in AMRs are treated as `[UNK]` for BertToknizer.
 
 ## Token Index Files
-- `node\_edge\_indices.pkl`: A dictionary provided for convenient token mapping when calculating our losses. Each example in the dataset has `pair\_id` as key and the value is a dictionary of the following form:
+- `node_edge_indices.pkl`: A dictionary provided for convenient token mapping when calculating our losses. Each example in the dataset has `pair_id` as key and the value is a dictionary of the following form:
 
 ```
 {
@@ -41,7 +41,7 @@ Each file is a list of dictionaries of format:
 }
 ```
 
-- `tag2region.pkl`: Token index mapping from each object tag back to each object region. Each example in the dataset has `pair\_id` as key.
+- `tag2region.pkl`: Token index mapping from each object tag back to each object region. Each example in the dataset has `pair_id` as key.
 
 See [here](https://github.com/SkrighYZ/FGVE/blob/65ef32b16b00dfb1ac89d88064a938f992625ca7/preprocess_utils.py#L142) and [here](https://github.com/SkrighYZ/FGVE/blob/65ef32b16b00dfb1ac89d88064a938f992625ca7/preprocess_utils.py#L172) for more details.
 
