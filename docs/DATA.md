@@ -63,4 +63,4 @@ We generate the AMRs from text hypotheses using [SPRING](https://ojs.aaai.org/in
 We extract the Flickr30K image features using a pretrained Faster R-CNN ResNeXt152-C4 detector. The image features are extracted following instructions in [pzzhang/VinVL](https://github.com/pzzhang/VinVL) and [microsoft/scene\_graph\_benchmark](https://github.com/microsoft/scene_graph_benchmark) and we reformat the resulting files to `.npy` format.
 
 ## Other Files
-We provide some utility functions to generate the other files needed by our model. Note that the functions are specific to the BertTokenizer used by our model.
+We provide some utility functions in [preprocess_utils.py](https://github.com/SkrighYZ/FGVE/blob/main/preprocess_utils.py) to generate the other files needed by our model. Note that the functions are specific to the BertTokenizer used by our model.
