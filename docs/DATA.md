@@ -43,7 +43,7 @@ Each file is a list of dictionaries of format:
 
 - `tag2region.pkl`: Token index mapping from each object tag back to each object region. Each example in the dataset has `pair\_id` as key.
 
-See [here]() for more details.
+See [here](https://github.com/SkrighYZ/FGVE/blob/65ef32b16b00dfb1ac89d88064a938f992625ca7/preprocess_utils.py#L142) and [here](https://github.com/SkrighYZ/FGVE/blob/65ef32b16b00dfb1ac89d88064a938f992625ca7/preprocess_utils.py#L172) for more details.
 
 ## Image Features
 We use one file for each image. Each compressed `.npz` file contains a feature matrix in field `x`, height in field `image_h`, width in field `image_w`, and prediction confidences in field `obj_conf`. You can access the features by  `np.load('xxx.npz')['x']`.

@@ -30,7 +30,7 @@ rm f30k_features.zip
 ```
 
 ## Model Checkpoints
-Regardless of whether you need to do the training, you need the checkpoint pretrained by Oscar+. In fact, only its vocab (tokenizer) files are needed if you only want to do evaluation. Please see [here]() for details.
+Regardless of whether you need to do the training, you need the checkpoint pretrained by Oscar+. In fact, only its vocab (tokenizer) files are needed if you only want to do evaluation. Please see [here](https://github.com/SkrighYZ/FGVE/blob/65ef32b16b00dfb1ac89d88064a938f992625ca7/oscar/run_ve_amr.py#L1052) for details.
 
 We modified it to have an additional (3rd) token type embedding initialized with the text's token type embedding. You can download the checkpoint with the script below.
 
