@@ -48,7 +48,7 @@ See [here](https://github.com/SkrighYZ/FGVE/blob/65ef32b16b00dfb1ac89d88064a938f
 ## Image Features
 We use one file for each image. Each compressed `.npz` file contains a feature matrix in field `x`, height in field `image_h`, width in field `image_w`, and prediction confidences in field `obj_conf`. You can access the features by  `np.load('xxx.npz')['x']`.
 
-The feature matrix has a size of `(N, 2054)` where `N` is the number of objects whose features are extracted in this image. Among the first 2054 feature dimensions, 2048 are the CNN-extracted region features; four dimensions are the bounding box coordinates (left, top, right, bottom) normalized to `[0, 1]` by image size; the rest two dimensions are the normalized width and height of the object.
+The feature matrix has a size of `(N, 2054)` where `N` is the number of objects whose features are extracted in this image. Among the 2054 feature dimensions, the first 2048 are the CNN-extracted region features; four dimensions are the bounding box coordinates (left, top, right, bottom) normalized to `[0, 1]` by image size; and the rest two dimensions are the normalized width and height of the object.
 
 
 
