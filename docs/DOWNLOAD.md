@@ -37,8 +37,8 @@ We modified it to have an additional (3rd) token type embedding initialized with
 ```bash
 cd $CHECKPOINT_DIR
 gdown 1RyqP_uv04SuKLAf5BM4_x9SxEnuA0aW2
-unzip final_ckpt.zip
-rm final_ckpt.zip
+unzip pretrained_ckpt.zip
+rm pretrained_ckpt.zip
 ```
 
 We also release our best model's checkpoint (denoted *Ours* or *Ours+CLS* in the paper).
