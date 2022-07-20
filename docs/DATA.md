@@ -24,7 +24,7 @@ Each file is a list of dictionaries of format:
 ```
 
 ## AMR Files
-- `amr_annotations.json`: Fine-grained KE annotations for our FGVE test set.
+- `amr_annotations.json`: Fine-grained KE annotations for our FGVE test set. Labels: entailment (0), neutral (1), contradiction (2), opt-out (3).
 - `amr_substitute.json`: AMR role string substitute used for preprocessing to prevent BertToknizer breaking up AMR role tokens.
 - `amr_vocab.txt`: New AMR tokens to be added to the tokenizer.
 - `amr_special_tokens.txt`: `[amr-unknown]` tokens in AMRs are treated as `[UNK]` for BertToknizer.
