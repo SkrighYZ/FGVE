@@ -48,7 +48,7 @@ See [here](https://github.com/SkrighYZ/FGVE/blob/65ef32b16b00dfb1ac89d88064a938f
 ## Image Features
 We use one file for each image. Each compressed `.npz` file contains a feature matrix in field `x`, height in field `image_h`, width in field `image_w`, and prediction confidences in field `obj_conf`. You can access the features by  `np.load('xxx.npz')['x']`.
 
-The feature matrix has a size of `(N, 2054)` where `N` is the number of objects whose features are extracted in this image. Among the 2054 feature dimensions - the first 2048 are the CNN features; the next 2 are bounding box locations `(top_left_x, top_left_y, bottom_right_x, bottom_right_y)` normalized to `[0, 1]`, where `x` denotes the horizontal index and `y` the vertical; the final 2 are the object's width and height.
+The feature matrix has a size of `(N, 2054)` where `N` is the number of objects whose features are extracted in this image. Among the first 2054 feature dimensions, 2048 are the CNN-extracted region features; four dimensions are the bounding box coordinates (left, top, right, bottom) normalized to `[0, 1]` by image size; the rest two dimensions are the normalized width and height of the object.
 
 
 
@@ -60,7 +60,7 @@ The feature matrix has a size of `(N, 2054)` where `N` is the number of objects 
 We generate the AMRs from text hypotheses using [SPRING](https://ojs.aaai.org/index.php/AAAI/article/view/17489), with the help of [bjascob/amrlib](https://github.com/bjascob/amrlib) API.
 
 ## Image Feature Extraction
-We extract the Flickr30K image features using a pretrained Faster R-CNN X152-C4 detector. The image features are extracted following instructions in [pzzhang/VinVL](https://github.com/pzzhang/VinVL) and [microsoft/scene\_graph\_benchmark](https://github.com/microsoft/scene_graph_benchmark) and we reformat the resulting files to `.npy` format.
+We extract the Flickr30K image features using a pretrained Faster R-CNN ResNeXt152-C4 detector. The image features are extracted following instructions in [pzzhang/VinVL](https://github.com/pzzhang/VinVL) and [microsoft/scene\_graph\_benchmark](https://github.com/microsoft/scene_graph_benchmark) and we reformat the resulting files to `.npy` format.
 
 ## Other Files
 We provide some utility functions to generate the other files needed by our model. Note that the functions are specific to the BertTokenizer used by our model.
