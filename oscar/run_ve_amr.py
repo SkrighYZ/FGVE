@@ -1,5 +1,5 @@
 # Copyright (c) 2020 Microsoft Corporation. Licensed under the MIT license.
-# Copyright (c) 2022 Yipeng Zhang. Licensed under the BDS 3-clause license.
+# Copyright (c) 2022 Yipeng Zhang. Licensed under the BSD 3-clause license.
 # Modified from https://github.com/microsoft/Oscar
 
 from __future__ import absolute_import, division, print_function

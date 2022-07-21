@@ -1,4 +1,4 @@
-# Copyright (c) 2022 Yipeng Zhang. Licensed under the BDS 3-clause license.
+# Copyright (c) 2022 Yipeng Zhang. Licensed under the BSD 3-clause license.
 
 import re, json
 from transformers.pytorch_transformers import BertTokenizer
