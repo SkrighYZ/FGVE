@@ -1,5 +1,5 @@
 # Fine-Grained Visual Entailment
-This is the *PyTorch Implementation* for our paper [Fine-Grained Visual Entailment](https://arxiv.org/abs/2203.15704).
+This is the *PyTorch Implementation* for our ECCV 2022 paper [Fine-Grained Visual Entailment](https://arxiv.org/abs/2203.15704).
 ![Overview](overview.png)
 
 ## Abstract
