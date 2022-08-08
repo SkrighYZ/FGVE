@@ -1,5 +1,5 @@
 # Run
-Our code is tested on four NVIDIA Titan RTX GPUs.
+Our code is tested on four NVIDIA Titan RTX GPUs. It may need modifications to support distributed training.
 
 ## Training
 
