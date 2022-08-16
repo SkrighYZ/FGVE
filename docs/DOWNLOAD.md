@@ -15,6 +15,8 @@ rm -r data
 rm data.zip
 ```
 
+Alternatively, download with a browser from [here](https://drive.google.com/file/d/1oODKH_GKygdkfNxzZLzJOfGQMoAVoXcv/view?usp=sharing).
+
 ## Pre-Extracted Image Features
 We extract the Flickr30K image features using a pretrained Faster R-CNN ResNeXt152-C4 detector. The image features are extracted following instructions in [pzzhang/VinVL](https://github.com/pzzhang/VinVL) and [microsoft/scene\_graph\_benchmark](https://github.com/microsoft/scene_graph_benchmark) and we reformat the resulting files to `.npy` format.
 
@@ -29,6 +31,8 @@ unzip f30k_features.zip
 rm f30k_features.zip
 ```
 
+Alternatively, download with a browser from [here](https://drive.google.com/file/d/1A0YLy6GoWZcCAq_mwZB9oWsKpPEr0cwP/view?usp=sharing).
+
 ## Model Checkpoints
 Regardless of whether you need to do the training, you need the checkpoint pretrained by Oscar+. In fact, only its vocab (tokenizer) files are needed if you only want to do evaluation. Please see [here](https://github.com/SkrighYZ/FGVE/blob/65ef32b16b00dfb1ac89d88064a938f992625ca7/oscar/run_ve_amr.py#L1052) for details.
 
@@ -41,6 +45,8 @@ unzip pretrained_ckpt.zip
 rm pretrained_ckpt.zip
 ```
 
+Alternatively, download with a browser from [here](https://drive.google.com/file/d/1RyqP_uv04SuKLAf5BM4_x9SxEnuA0aW2/view?usp=sharing).
+
 We also release our best model's checkpoint (denoted *Ours* or *Ours+CLS* in the paper).
 
 ```bash
@@ -49,3 +55,5 @@ gdown 1-CepLyuATWQKEZUPg6Jfd_uJ6Uv2PE5j
 unzip final_ckpt.zip
 rm final_ckpt.zip
 ```
+
+Alternatively, download with a browser from [here](https://drive.google.com/file/d/1-CepLyuATWQKEZUPg6Jfd_uJ6Uv2PE5j/view?usp=sharing).
