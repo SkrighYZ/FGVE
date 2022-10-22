@@ -1,5 +1,5 @@
 # Fine-Grained Visual Entailment
-This is the *PyTorch Implementation* for our ECCV 2022 paper [Fine-Grained Visual Entailment](https://arxiv.org/abs/2203.15704).
+This is the *PyTorch Implementation* for our ECCV 2022 paper [Fine-Grained Visual Entailment](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/4411_ECCV_2022_paper.php).
 ![Overview](overview.png)
 
 ## Abstract
@@ -27,7 +27,7 @@ This research is based upon work supported by DARPA SemaFor Program No. HR001120
 @article{thomas2022fine,
   title={Fine-Grained Visual Entailment},
   author={Thomas, Christopher and Zhang, Yipeng and Chang, Shih-Fu},
-  journal={ECCV 2022},
+  journal={ECCV},
   year={2022}
 }
 ```
